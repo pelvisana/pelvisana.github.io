@@ -2,10 +2,12 @@
 import type { Lang } from '../i18n/config';
 import { STRINGS } from '../i18n/strings';
 import LanguageSwitcher from './LanguageSwitcher.astro';
+import { SITE } from '../config/site';
 
 type Props = { lang: Lang; pathname: string };
 const { lang, pathname } = Astro.props;
 const s = STRINGS[lang];
+const contactHref = `mailto:${SITE.email}`;
 
 const basePath = `/${lang}/`;
 const nav = [
@@ -53,7 +55,7 @@ const nav = [
 			</button>
 			<LanguageSwitcher lang={lang} pathname={pathname} />
 			<a
-				href={`${basePath}support/`}
+				href={contactHref}
 				class="hidden rounded-full bg-ink-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-ink-700 sm:inline-flex"
 			>
 				{s.cta.contact}
@@ -78,7 +80,7 @@ const nav = [
 				);
 			})}
 			<a
-				href={`${basePath}support/`}
+				href={contactHref}
 				class="mt-2 inline-flex items-center justify-center rounded-xl bg-ink-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-ink-700"
 			>
 				{s.cta.contact}

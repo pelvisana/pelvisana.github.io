@@ -14,7 +14,8 @@ type Props = {
 };
 
 	const { lang, title, description, pathname } = Astro.props;
-	const siteName = STRINGS[lang].siteName;
+	const s = STRINGS[lang];
+	const siteName = s.siteName;
 
 	const site = Astro.site ?? new URL('https://pelvisana.github.io');
 	const canonical = new URL(pathname, site).toString();
@@ -53,8 +54,9 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 		{alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
 		<link rel="alternate" hreflang="x-default" href={new URL('/en/', site).toString()} />
 
-			<script type="application/ld+json" is:inline>
-				{JSON.stringify({
+			<script
+				type="application/ld+json"
+				set:html={JSON.stringify({
 					'@context': 'https://schema.org',
 					'@type': 'WebSite',
 					name: siteName,
@@ -62,7 +64,7 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 					inLanguage: lang,
 					publisher: {
 						'@type': 'Organization',
-						name: 'Pelvisana',
+						name: siteName,
 						url: site.toString(),
 						logo: {
 							'@type': 'ImageObject',
@@ -70,7 +72,7 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 						},
 					},
 				})}
-			</script>
+			/>
 		</head>
 	<body class="min-h-dvh bg-white text-slate-900 antialiased">
 		<a

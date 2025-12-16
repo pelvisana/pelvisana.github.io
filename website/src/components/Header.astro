@@ -26,7 +26,7 @@ const nav = [
 
 		<nav aria-label="Primary" class="hidden items-center gap-6 md:flex">
 			{nav.map((item) => {
-				const isActive = pathname === item.href;
+	const isActive = pathname === item.href;
 				return (
 					<a
 						href={item.href}
@@ -42,6 +42,15 @@ const nav = [
 		</nav>
 
 		<div class="flex items-center gap-3">
+			<button
+				id="mobile-menu-button"
+				type="button"
+				class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50 md:hidden"
+				aria-controls="mobile-menu"
+				aria-expanded="false"
+			>
+				Menu
+			</button>
 			<LanguageSwitcher lang={lang} pathname={pathname} />
 			<a
 				href={`${basePath}support/`}
@@ -51,5 +60,49 @@ const nav = [
 			</a>
 		</div>
 	</div>
+
+	<div id="mobile-menu" class="hidden border-t border-slate-200/70 bg-white md:hidden">
+		<nav aria-label="Mobile" class="mx-auto grid max-w-6xl gap-2 px-4 py-4 sm:px-6">
+			{nav.map((item) => {
+				const isActive = pathname === item.href;
+				return (
+					<a
+						href={item.href}
+						class:list={[
+							'rounded-xl px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950',
+							isActive && 'bg-slate-50 text-slate-950',
+						]}
+					>
+						{item.label}
+					</a>
+				);
+			})}
+			<a
+				href={`${basePath}support/`}
+				class="mt-2 inline-flex items-center justify-center rounded-xl bg-ink-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-ink-700"
+			>
+				{s.cta.contact}
+			</a>
+		</nav>
+	</div>
 </header>
 
+<script is:inline>
+	(() => {
+		const button = document.getElementById('mobile-menu-button');
+		const menu = document.getElementById('mobile-menu');
+		if (!(button instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) return;
+
+		const setOpen = (open) => {
+			menu.classList.toggle('hidden', !open);
+			button.setAttribute('aria-expanded', String(open));
+		};
+
+		setOpen(false);
+		button.addEventListener('click', () => setOpen(menu.classList.contains('hidden')));
+		menu.addEventListener('click', (e) => {
+			const target = e.target;
+			if (target instanceof HTMLAnchorElement) setOpen(false);
+		});
+	})();
+</script>

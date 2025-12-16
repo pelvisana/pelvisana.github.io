@@ -11,8 +11,9 @@ const pathname = `/${lang}/faq/`;
 ---
 
 <BaseLayout lang={lang} pathname={pathname} title={`${s.faq.title} — ${s.siteName}`} description={s.faq.description}>
-	<script type="application/ld+json" is:inline>
-		{JSON.stringify({
+	<script
+		type="application/ld+json"
+		set:html={JSON.stringify({
 			'@context': 'https://schema.org',
 			'@type': 'FAQPage',
 			mainEntity: s.faq.items.map((item) => ({
@@ -21,7 +22,7 @@ const pathname = `/${lang}/faq/`;
 				acceptedAnswer: { '@type': 'Answer', text: item.a },
 			})),
 		})}
-	</script>
+	/>
 
 	<header class="space-y-3">
 		<h1 class="text-4xl font-semibold tracking-tight text-slate-950">{s.faq.title}</h1>

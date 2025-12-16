@@ -17,19 +17,11 @@ const email = SITE.email;
 		<p class="max-w-3xl text-pretty text-lg text-slate-700">{s.support.description}</p>
 	</header>
 
-	<section class="mt-8 grid gap-4 md:grid-cols-2">
+	<section class="mt-8">
 		<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
 			<div class="text-sm font-semibold text-slate-950">{s.support.emailLabel}</div>
 			<p class="mt-2 text-sm text-slate-700">
 				<a class="font-medium text-ink-700 hover:text-ink-800" href={`mailto:${email}`}>{email}</a>
-			</p>
-		</div>
-		<div class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-			<div class="text-sm font-semibold text-slate-950">GitHub</div>
-			<p class="mt-2 text-sm text-slate-700">
-				<a class="font-medium text-ink-700 hover:text-ink-800" href={SITE.githubUrl} rel="noopener noreferrer" target="_blank">
-					{SITE.githubUrl.replace('https://', '')}
-				</a>
 			</p>
 		</div>
 	</section>

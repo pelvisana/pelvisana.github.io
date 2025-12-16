@@ -13,12 +13,12 @@ type Props = {
 	pathname: string;
 };
 
-const { lang, title, description, pathname } = Astro.props;
-const s = STRINGS[lang];
+	const { lang, title, description, pathname } = Astro.props;
+	const siteName = STRINGS[lang].siteName;
 
-const site = Astro.site ?? new URL('https://pelvisana.github.io');
-const canonical = new URL(pathname, site).toString();
-const ogImage = new URL('/img/og.png', site).toString();
+	const site = Astro.site ?? new URL('https://pelvisana.github.io');
+	const canonical = new URL(pathname, site).toString();
+	const ogImage = new URL('/img/og.png', site).toString();
 
 const rest = stripLangPrefix(pathname);
 const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
@@ -37,13 +37,13 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 		<meta name="description" content={description} />
 		<link rel="canonical" href={canonical} />
 		<link rel="icon" type="image/png" href="/favicon.png" />
-		<meta name="theme-color" content="#3e4df5" />
+			<meta name="theme-color" content="#3e4df5" />
 
-		<meta property="og:site_name" content="Pelvisana" />
-		<meta property="og:title" content={title} />
-		<meta property="og:description" content={description} />
-		<meta property="og:type" content="website" />
-		<meta property="og:url" content={canonical} />
+			<meta property="og:site_name" content={siteName} />
+			<meta property="og:title" content={title} />
+			<meta property="og:description" content={description} />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content={canonical} />
 		<meta property="og:image" content={ogImage} />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
@@ -57,7 +57,7 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 				{JSON.stringify({
 					'@context': 'https://schema.org',
 					'@type': 'WebSite',
-					name: s.siteName,
+					name: siteName,
 					url: site.toString(),
 					inLanguage: lang,
 					publisher: {

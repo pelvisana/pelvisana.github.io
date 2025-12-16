@@ -8,6 +8,7 @@ export const STRINGS: Record<
 		nav: { home: string; app: string; evidence: string; faq: string; support: string };
 		cta: { getApp: string; contact: string };
 		store: { googlePlay: string; appStore: string; comingSoon: string };
+		media: { screenshots: { videos: string; calendar: string; evaluation: string; bibliography: string } };
 		footer: { medicalDisclaimer: string; copyright: string };
 		home: {
 			title: string;
@@ -25,6 +26,7 @@ export const STRINGS: Record<
 		app: {
 			title: string;
 			description: string;
+			appStoreNote: string;
 			features: { title: string; items: { title: string; body: string }[] };
 		};
 		evidence: { title: string; description: string; cta: string };
@@ -39,6 +41,14 @@ export const STRINGS: Record<
 		nav: { home: 'Home', app: 'App', evidence: 'Evidence', faq: 'FAQ', support: 'Support' },
 		cta: { getApp: 'Get the app', contact: 'Contact' },
 		store: { googlePlay: 'Get it on Google Play', appStore: 'Download on the App Store', comingSoon: 'Coming soon' },
+		media: {
+			screenshots: {
+				videos: 'Videos & routines',
+				calendar: 'Calendar',
+				evaluation: 'Clinical evaluation',
+				bibliography: 'Bibliography',
+			},
+		},
 		footer: {
 			medicalDisclaimer:
 				'Medical disclaimer: Pelvisana provides educational information and is not a substitute for professional medical advice, diagnosis, or treatment.',
@@ -90,6 +100,7 @@ export const STRINGS: Record<
 		app: {
 			title: 'App features',
 			description: 'Designed for learning, practice, and long-term adherence.',
+			appStoreNote: 'We will add the App Store link as soon as it’s available.',
 			features: {
 				title: 'What you can do with Pelvisana',
 				items: [
@@ -136,6 +147,14 @@ export const STRINGS: Record<
 		nav: { home: 'Inicio', app: 'App', evidence: 'Evidencia', faq: 'Preguntas', support: 'Soporte' },
 		cta: { getApp: 'Descargar la app', contact: 'Contacto' },
 		store: { googlePlay: 'Disponible en Google Play', appStore: 'Descargar en App Store', comingSoon: 'Próximamente' },
+		media: {
+			screenshots: {
+				videos: 'Vídeos y rutinas',
+				calendar: 'Calendario',
+				evaluation: 'Evaluación clínica',
+				bibliography: 'Bibliografía',
+			},
+		},
 		footer: {
 			medicalDisclaimer:
 				'Aviso médico: Pelvisana ofrece información educativa y no sustituye el consejo, diagnóstico o tratamiento de un profesional sanitario.',
@@ -187,6 +206,7 @@ export const STRINGS: Record<
 		app: {
 			title: 'Funciones de la app',
 			description: 'Diseñada para aprender, practicar y mantener la adherencia.',
+			appStoreNote: 'Añadiremos el enlace de App Store en cuanto esté disponible.',
 			features: {
 				title: 'Qué puedes hacer con Pelvisana',
 				items: [
@@ -233,6 +253,14 @@ export const STRINGS: Record<
 		nav: { home: 'Inici', app: 'App', evidence: 'Evidència', faq: 'Preguntes', support: 'Suport' },
 		cta: { getApp: 'Obtenir l’app', contact: 'Contacte' },
 		store: { googlePlay: 'Disponible a Google Play', appStore: 'Descarregar a l’App Store', comingSoon: 'Properament' },
+		media: {
+			screenshots: {
+				videos: 'Vídeos i rutines',
+				calendar: 'Calendari',
+				evaluation: 'Avaluació clínica',
+				bibliography: 'Bibliografia',
+			},
+		},
 		footer: {
 			medicalDisclaimer:
 				'Avís mèdic: Pelvisana ofereix informació educativa i no substitueix el consell, diagnòstic o tractament d’un professional sanitari.',
@@ -284,6 +312,7 @@ export const STRINGS: Record<
 		app: {
 			title: 'Funcions de l’app',
 			description: 'Dissenyada per aprendre, practicar i mantenir l’adherència.',
+			appStoreNote: 'Afegirem l’enllaç de l’App Store tan aviat com estigui disponible.',
 			features: {
 				title: 'Què pots fer amb Pelvisana',
 				items: [

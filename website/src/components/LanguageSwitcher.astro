@@ -1,0 +1,28 @@
+---
+import { SUPPORTED_LANGS, type Lang } from '../i18n/config';
+import { stripLangPrefix } from '../i18n/urls';
+
+type Props = { lang: Lang; pathname: string };
+const { lang, pathname } = Astro.props;
+
+const rest = stripLangPrefix(pathname);
+const options = SUPPORTED_LANGS.map((l) => ({
+	lang: l,
+	href: `/${l}${rest}`.replaceAll(/\/+/g, '/'),
+}));
+---
+
+<div class="relative">
+	<label class="sr-only" for="lang">Language</label>
+	<select
+		id="lang"
+		class="rounded-full border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 shadow-sm focus:border-ink-600 focus:outline-none focus:ring-2 focus:ring-ink-200"
+		onchange="location.href=this.value"
+		value={options.find((o) => o.lang === lang)?.href}
+	>
+		{options.map((o) => (
+			<option value={o.href}>{o.lang.toUpperCase()}</option>
+		))}
+	</select>
+</div>
+

@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { STRINGS } from '../i18n/strings';
+import type { Lang } from '../i18n/config';
+
+import EvidenceEn from '../content/evidence/en.mdx';
+import EvidenceEs from '../content/evidence/es.mdx';
+import EvidenceCa from '../content/evidence/ca.mdx';
+
+type Props = { lang: Lang };
+const { lang } = Astro.props;
+const s = STRINGS[lang];
+const pathname = `/${lang}/evidence/`;
+
+const ContentByLang = { en: EvidenceEn, es: EvidenceEs, ca: EvidenceCa } satisfies Record<Lang, unknown>;
+const Content = ContentByLang[lang] as any;
+---
+
+<BaseLayout lang={lang} pathname={pathname} title={`${s.evidence.title} — ${s.siteName}`} description={s.evidence.description}>
+	<header class="space-y-3">
+		<h1 class="text-4xl font-semibold tracking-tight text-slate-950">{s.evidence.title}</h1>
+		<p class="max-w-3xl text-pretty text-lg text-slate-700">{s.evidence.description}</p>
+	</header>
+
+	<section class="prose prose-slate mt-8 max-w-none prose-a:text-ink-700 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-950">
+		<Content />
+	</section>
+</BaseLayout>
+

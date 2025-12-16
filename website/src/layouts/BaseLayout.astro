@@ -1,0 +1,88 @@
+---
+import '../styles/global.css';
+import type { Lang } from '../i18n/config';
+import { STRINGS } from '../i18n/strings';
+import { stripLangPrefix } from '../i18n/urls';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+type Props = {
+	lang: Lang;
+	title: string;
+	description: string;
+	pathname: string;
+};
+
+const { lang, title, description, pathname } = Astro.props;
+const s = STRINGS[lang];
+
+const site = Astro.site ?? new URL('https://pelvisana.github.io');
+const canonical = new URL(pathname, site).toString();
+const ogImage = new URL('/img/og.png', site).toString();
+
+const rest = stripLangPrefix(pathname);
+const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
+	lang: altLang,
+	href: new URL(`/${altLang}${rest}`.replaceAll(/\/+/g, '/'), site).toString(),
+}));
+
+---
+
+<!doctype html>
+<html lang={lang}>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical} />
+		<link rel="icon" type="image/png" href="/favicon.png" />
+		<meta name="theme-color" content="#3e4df5" />
+
+		<meta property="og:site_name" content="Pelvisana" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={canonical} />
+		<meta property="og:image" content={ogImage} />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content={title} />
+		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
+
+		{alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
+		<link rel="alternate" hreflang="x-default" href={new URL('/en/', site).toString()} />
+
+			<script type="application/ld+json" is:inline>
+				{JSON.stringify({
+					'@context': 'https://schema.org',
+					'@type': 'WebSite',
+					name: s.siteName,
+					url: site.toString(),
+					inLanguage: lang,
+					publisher: {
+						'@type': 'Organization',
+						name: 'Pelvisana',
+						url: site.toString(),
+						logo: {
+							'@type': 'ImageObject',
+							url: new URL('/img/logo-800w.webp', site).toString(),
+						},
+					},
+				})}
+			</script>
+		</head>
+	<body class="min-h-dvh bg-white text-slate-900 antialiased">
+		<a
+			class="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-white focus:px-3 focus:py-2 focus:text-sm focus:ring-2 focus:ring-ink-600"
+			href="#content"
+		>
+			Skip to content
+		</a>
+		<Header lang={lang} pathname={pathname} />
+		<main id="content" class="mx-auto w-full max-w-6xl px-4 pb-16 pt-10 sm:px-6 lg:px-8">
+			<slot />
+		</main>
+		<Footer lang={lang} />
+	</body>
+</html>

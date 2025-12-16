@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { STRINGS } from '../i18n/strings';
+import type { Lang } from '../i18n/config';
+
+import PrivacyEn from '../content/legal/privacy.en.mdx';
+import PrivacyEs from '../content/legal/privacy.es.mdx';
+import PrivacyCa from '../content/legal/privacy.ca.mdx';
+
+type Props = { lang: Lang };
+const { lang } = Astro.props;
+const s = STRINGS[lang];
+const pathname = `/${lang}/privacy/`;
+
+const ContentByLang = { en: PrivacyEn, es: PrivacyEs, ca: PrivacyCa } satisfies Record<Lang, unknown>;
+const Content = ContentByLang[lang] as any;
+---
+
+<BaseLayout lang={lang} pathname={pathname} title={`${s.legal.privacy.title} — ${s.siteName}`} description={s.footer.medicalDisclaimer}>
+	<header class="space-y-3">
+		<h1 class="text-4xl font-semibold tracking-tight text-slate-950">{s.legal.privacy.title}</h1>
+	</header>
+	<section class="prose prose-slate mt-8 max-w-none prose-a:text-ink-700 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-950">
+		<Content />
+	</section>
+</BaseLayout>
+

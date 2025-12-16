@@ -1,0 +1,4 @@
+Contact: mailto:soporte@pelvisana.com
+Preferred-Languages: en, es, ca
+Canonical: https://pelvisana.github.io/.well-known/security.txt
+

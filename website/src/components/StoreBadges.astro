@@ -1,0 +1,41 @@
+---
+import type { Lang } from '../i18n/config';
+import { STRINGS } from '../i18n/strings';
+import { SITE } from '../config/site';
+
+type Props = { lang: Lang };
+const { lang } = Astro.props;
+const s = STRINGS[lang];
+---
+
+<div class="flex flex-wrap items-center gap-3">
+	<a
+		href={SITE.playStoreUrl}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="inline-flex items-center rounded-xl ring-1 ring-slate-200 hover:ring-slate-300"
+	>
+		<img src="/img/badges/google-play.svg" alt={s.store.googlePlay} height="44" class="h-11 w-auto" loading="lazy" />
+	</a>
+
+	{SITE.appStoreUrl ? (
+		<a
+			href={SITE.appStoreUrl}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="inline-flex items-center rounded-xl ring-1 ring-slate-200 hover:ring-slate-300"
+		>
+			<img src="/img/badges/app-store.svg" alt={s.store.appStore} height="44" class="h-11 w-auto" loading="lazy" />
+		</a>
+	) : (
+		<div class="relative inline-flex items-center">
+			<div class="inline-flex items-center rounded-xl ring-1 ring-slate-200 opacity-70">
+				<img src="/img/badges/app-store.svg" alt={s.store.appStore} height="44" class="h-11 w-auto" loading="lazy" />
+			</div>
+			<span class="ml-2 inline-flex items-center rounded-full bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700">
+				{s.store.comingSoon}
+			</span>
+		</div>
+	)}
+</div>
+

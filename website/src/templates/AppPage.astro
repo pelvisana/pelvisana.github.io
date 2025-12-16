@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ScreenshotGallery from '../components/ScreenshotGallery.astro';
+import StoreBadges from '../components/StoreBadges.astro';
+import { SITE } from '../config/site';
+import { STRINGS } from '../i18n/strings';
+import type { Lang } from '../i18n/config';
+
+type Props = { lang: Lang };
+const { lang } = Astro.props;
+const s = STRINGS[lang];
+const pathname = `/${lang}/app/`;
+
+const screenshots = [
+	{
+		title: 'Videos & routines',
+		src360: '/img/screenshots/2025-12-16-at-17.14.22-360w.webp',
+		src540: '/img/screenshots/2025-12-16-at-17.14.22-540w.webp',
+		src720: '/img/screenshots/2025-12-16-at-17.14.22-720w.webp',
+	},
+	{
+		title: 'Calendar',
+		src360: '/img/screenshots/2025-12-16-at-17.14.39-360w.webp',
+		src540: '/img/screenshots/2025-12-16-at-17.14.39-540w.webp',
+		src720: '/img/screenshots/2025-12-16-at-17.14.39-720w.webp',
+	},
+	{
+		title: 'Clinical evaluation',
+		src360: '/img/screenshots/2025-12-16-at-17.14.44-360w.webp',
+		src540: '/img/screenshots/2025-12-16-at-17.14.44-540w.webp',
+		src720: '/img/screenshots/2025-12-16-at-17.14.44-720w.webp',
+	},
+	{
+		title: 'Bibliography',
+		src360: '/img/screenshots/2025-12-16-at-17.14.48-360w.webp',
+		src540: '/img/screenshots/2025-12-16-at-17.14.48-540w.webp',
+		src720: '/img/screenshots/2025-12-16-at-17.14.48-720w.webp',
+	},
+];
+---
+
+<BaseLayout lang={lang} pathname={pathname} title={`${s.app.title} — ${s.siteName}`} description={s.app.description}>
+	<script type="application/ld+json" is:inline>
+		{JSON.stringify({
+			'@context': 'https://schema.org',
+			'@type': 'SoftwareApplication',
+			name: s.siteName,
+			applicationCategory: 'HealthApplication',
+			operatingSystem: 'Android, iOS',
+			url: 'https://pelvisana.github.io',
+			downloadUrl: SITE.playStoreUrl,
+			offers: {
+				'@type': 'Offer',
+				price: '0',
+				priceCurrency: 'EUR',
+			},
+		})}
+	</script>
+
+	<header class="space-y-3">
+		<h1 class="text-4xl font-semibold tracking-tight text-slate-950">{s.app.title}</h1>
+		<p class="max-w-3xl text-pretty text-lg text-slate-700">{s.app.description}</p>
+	</header>
+
+	<section class="mt-6">
+		<StoreBadges lang={lang} />
+	</section>
+
+	<section class="mt-8">
+		<ScreenshotGallery items={screenshots} />
+	</section>
+
+	<section class="mt-8">
+		<h2 class="text-2xl font-semibold tracking-tight text-slate-950">{s.app.features.title}</h2>
+		<div class="mt-6 grid gap-4 md:grid-cols-3">
+			{s.app.features.items.map((item) => (
+				<div class="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+					<div class="text-sm font-semibold text-slate-950">{item.title}</div>
+					<p class="mt-2 text-sm leading-relaxed text-slate-700">{item.body}</p>
+				</div>
+			))}
+		</div>
+	</section>
+
+	<section class="mt-12 rounded-2xl border border-slate-200 bg-slate-50 p-6">
+		<p class="text-sm text-slate-700">
+			We will add the App Store link as soon as it’s available.
+		</p>
+	</section>
+</BaseLayout>

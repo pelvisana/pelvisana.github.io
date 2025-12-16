@@ -1,0 +1,30 @@
+---
+import type { Lang } from '../i18n/config';
+import { STRINGS } from '../i18n/strings';
+
+type Props = { lang: Lang };
+const { lang } = Astro.props;
+const s = STRINGS[lang];
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-slate-200/70 bg-slate-50">
+	<div class="mx-auto grid max-w-6xl gap-6 px-4 py-10 sm:px-6 lg:px-8">
+		<div class="flex flex-col gap-2">
+			<div class="flex items-center gap-3">
+				<img src="/img/logo-400w.webp" width="32" height="32" alt="" class="h-8 w-8" loading="lazy" />
+				<div class="font-semibold">{s.siteName}</div>
+			</div>
+			<p class="max-w-3xl text-sm text-slate-700">{s.footer.medicalDisclaimer}</p>
+		</div>
+
+		<div class="flex flex-wrap items-center justify-between gap-4 text-sm text-slate-600">
+			<div>{s.footer.copyright} {year}</div>
+			<div class="flex flex-wrap items-center gap-4">
+				<a class="hover:text-slate-950" href={`/${lang}/privacy/`}>{s.legal.privacy.title}</a>
+				<a class="hover:text-slate-950" href={`/${lang}/terms/`}>{s.legal.terms.title}</a>
+			</div>
+		</div>
+	</div>
+</footer>
+

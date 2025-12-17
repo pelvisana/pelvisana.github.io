@@ -47,11 +47,20 @@ const nav = [
 			<button
 				id="mobile-menu-button"
 				type="button"
-				class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-900 shadow-sm hover:bg-slate-50 md:hidden"
+				class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white p-2 text-slate-900 shadow-sm hover:bg-slate-50 md:hidden"
 				aria-controls="mobile-menu"
 				aria-expanded="false"
 			>
-				Menu
+				<span class="sr-only">Menu</span>
+				<svg id="icon-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<path d="M4 6h16" />
+					<path d="M4 12h16" />
+					<path d="M4 18h16" />
+				</svg>
+				<svg id="icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="hidden h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+					<path d="M18 6 6 18" />
+					<path d="M6 6l12 12" />
+				</svg>
 			</button>
 			<LanguageSwitcher lang={lang} pathname={pathname} />
 			<a
@@ -93,11 +102,15 @@ const nav = [
 	(() => {
 		const button = document.getElementById('mobile-menu-button');
 		const menu = document.getElementById('mobile-menu');
+		const iconOpen = document.getElementById('icon-open');
+		const iconClose = document.getElementById('icon-close');
 		if (!(button instanceof HTMLButtonElement) || !(menu instanceof HTMLElement)) return;
 
 		const setOpen = (open) => {
 			menu.classList.toggle('hidden', !open);
 			button.setAttribute('aria-expanded', String(open));
+			if (iconOpen instanceof SVGElement) iconOpen.classList.toggle('hidden', open);
+			if (iconClose instanceof SVGElement) iconClose.classList.toggle('hidden', !open);
 		};
 
 		setOpen(false);
@@ -105,6 +118,16 @@ const nav = [
 		menu.addEventListener('click', (e) => {
 			const target = e.target;
 			if (target instanceof HTMLAnchorElement) setOpen(false);
+		});
+		window.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') setOpen(false);
+		});
+		window.addEventListener('click', (e) => {
+			if (menu.classList.contains('hidden')) return;
+			const target = e.target;
+			if (!(target instanceof Node)) return;
+			if (menu.contains(target) || button.contains(target)) return;
+			setOpen(false);
 		});
 	})();
 </script>

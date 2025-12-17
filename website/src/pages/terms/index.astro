@@ -15,9 +15,19 @@
 			(() => {
 				const supported = ['en', 'es', 'ca'];
 				const fallback = 'en';
-				const normalize = (l: string) => (l || '').toLowerCase().split('-')[0];
-				const languages = (navigator.languages || []).concat([navigator.language]).filter(Boolean);
-				const picked = languages.map(normalize).find((l) => supported.includes(l)) || fallback;
+				const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
+				const stored = (() => {
+					try {
+						return localStorage.getItem('pelvisana_lang');
+					} catch {
+						return null;
+					}
+				})();
+				const languages = [navigator.language].concat(navigator.languages || []).filter(Boolean);
+				const picked =
+					(stored && supported.includes(stored) ? stored : null) ||
+					languages.map(normalize).find((l) => supported.includes(l)) ||
+					fallback;
 				const target = `/${picked}/terms/` + location.search + location.hash;
 				location.replace(target.replaceAll(/\/+/g, '/'));
 			})();

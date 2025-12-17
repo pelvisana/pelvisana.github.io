@@ -13,6 +13,7 @@ const pathname = `/${lang}/faq/`;
 <BaseLayout lang={lang} pathname={pathname} title={`${s.faq.title} — ${s.siteName}`} description={s.faq.description}>
 	<script
 		type="application/ld+json"
+		is:inline
 		set:html={JSON.stringify({
 			'@context': 'https://schema.org',
 			'@type': 'FAQPage',

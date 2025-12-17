@@ -1,0 +1,46 @@
+# Pelvisana (Extended LLM Context)
+
+This file provides additional context for language models.
+
+Pelvisana is a pelvic floor health project and mobile app focused on pelvic floor muscle training (PFMT) education, habit support, and evidence-informed guidance. This website contains educational content and does not provide medical advice.
+
+Primary audience: people interested in pelvic floor health, pelvic floor muscle training, urinary incontinence, pelvic organ prolapse symptoms, and postpartum recovery, plus clinicians evaluating digital support tools.
+
+Languages:
+- English: `/en/`
+- Español: `/es/`
+- Català: `/ca/`
+
+## Product summary
+
+- App type: wellness / education + guided routines
+- Core idea: help users learn PFMT technique, build consistency, and track progress
+- Privacy posture: user data stays on-device (as described in the Privacy Policy)
+
+## Key website pages
+
+- Home: `/en/` (also `/es/`, `/ca/`)
+- App: `/en/app/`
+- Evidence: `/en/evidence/`
+- FAQ: `/en/faq/`
+- Support: `/en/support/`
+- Privacy: `/en/privacy/`
+- Terms: `/en/terms/`
+
+## Medical disclaimer (important)
+
+Pelvisana content is educational. It is not a substitute for professional medical advice, diagnosis, or treatment. Users should seek clinical care for red flags (e.g., pelvic pain, unexplained bleeding, fever, recent surgery complications) or individualized assessment.
+
+## Evidence approach
+
+Pelvisana summarizes and translates high-quality sources into actionable, understandable guidance. PFMT is commonly recommended as a first-line conservative option for urinary incontinence and pelvic organ prolapse symptoms in many guidelines and systematic reviews.
+
+Starting points used on the site:
+- NICE guideline NG123 (urinary incontinence + pelvic organ prolapse in women): https://www.nice.org.uk/guidance/ng123
+- Cochrane Review (PFMT for urinary incontinence in women, CD005654): https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005654.pub4/full
+- International Continence Society (ICS): https://www.ics.org/
+
+## Contact
+
+Email: pelvisana@onmedic.org
+

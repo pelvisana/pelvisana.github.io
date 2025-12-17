@@ -42,6 +42,7 @@ const screenshots = [
 <BaseLayout lang={lang} pathname={pathname} title={`${s.app.title} — ${s.siteName}`} description={s.app.description}>
 	<script
 		type="application/ld+json"
+		is:inline
 		set:html={JSON.stringify({
 			'@context': 'https://schema.org',
 			'@type': 'SoftwareApplication',

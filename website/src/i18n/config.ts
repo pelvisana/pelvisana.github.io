@@ -9,7 +9,6 @@ export function isLang(value: string): value is Lang {
 
 export function normalizeLocale(input: string | undefined | null): Lang | null {
 	if (!input) return null;
-	const base = input.trim().toLowerCase().split('-')[0] ?? '';
+	const base = input.trim().toLowerCase().split(/[-_]/)[0] ?? '';
 	return isLang(base) ? base : null;
 }
-

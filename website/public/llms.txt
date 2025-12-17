@@ -19,6 +19,10 @@ Default routing: browser language when available, fallback to English.
 
 - Google Play: https://play.google.com/store/apps/details?id=com.alarno.pelvisana
 
+## Extended context
+
+- `/llms-full.txt` provides a longer description of the project, content, and evidence links.
+
 ## Medical disclaimer
 
 This site is for educational purposes and does not provide medical advice, diagnosis, or treatment.

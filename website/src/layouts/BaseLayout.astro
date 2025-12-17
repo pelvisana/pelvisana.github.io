@@ -13,13 +13,13 @@ type Props = {
 	pathname: string;
 };
 
-	const { lang, title, description, pathname } = Astro.props;
-	const s = STRINGS[lang];
-	const siteName = s.siteName;
+const { lang, title, description, pathname } = Astro.props;
+const s = STRINGS[lang];
+const siteName = s.siteName;
 
-	const site = Astro.site ?? new URL('https://pelvisana.github.io');
-	const canonical = new URL(pathname, site).toString();
-	const ogImage = new URL('/img/og.png', site).toString();
+const site = Astro.site ?? new URL('https://pelvisana.github.io');
+const canonical = new URL(pathname, site).toString();
+const ogImage = new URL('/img/og.png', site).toString();
 
 const rest = stripLangPrefix(pathname);
 const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
@@ -27,6 +27,7 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 	href: new URL(`/${altLang}${rest}`.replaceAll(/\/+/g, '/'), site).toString(),
 }));
 
+const ogLocaleByLang: Record<Lang, string> = { en: 'en_US', es: 'es_ES', ca: 'ca_ES' };
 ---
 
 <!doctype html>
@@ -35,9 +36,9 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>{title}</title>
-		<meta name="description" content={description} />
-		<link rel="canonical" href={canonical} />
-		<link rel="icon" type="image/png" href="/favicon.png" />
+			<meta name="description" content={description} />
+			<link rel="canonical" href={canonical} />
+			<link rel="icon" type="image/png" href="/favicon.png" />
 			<meta name="theme-color" content="#3e4df5" />
 
 			<meta property="og:site_name" content={siteName} />
@@ -45,7 +46,11 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 			<meta property="og:description" content={description} />
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content={canonical} />
-		<meta property="og:image" content={ogImage} />
+			<meta property="og:image" content={ogImage} />
+			<meta property="og:locale" content={ogLocaleByLang[lang]} />
+			{alternates
+				.filter((a) => a.lang !== lang)
+				.map((a) => <meta property="og:locale:alternate" content={ogLocaleByLang[a.lang]} />)}
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={title} />
 		<meta name="twitter:description" content={description} />
@@ -56,6 +61,7 @@ const alternates = (['en', 'es', 'ca'] as const).map((altLang) => ({
 
 			<script
 				type="application/ld+json"
+				is:inline
 				set:html={JSON.stringify({
 					'@context': 'https://schema.org',
 					'@type': 'WebSite',

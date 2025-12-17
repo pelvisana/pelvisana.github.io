@@ -11,15 +11,16 @@
 		<title>Pelvisana</title>
 	</head>
 	<body>
-		<script>
-				(() => {
-					const supported = ['en', 'es', 'ca'];
-					const fallback = 'en';
-					const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
-					const mode = (() => {
-						try {
-							return localStorage.getItem('pelvisana_lang_mode');
-						} catch {
+			<script>
+				// @ts-nocheck
+					(() => {
+						const supported = ['en', 'es', 'ca'];
+						const fallback = 'en';
+					const normalize = (l) => (l || '').toLowerCase().split(/[-_]/)[0];
+						const mode = (() => {
+							try {
+								return localStorage.getItem('pelvisana_lang_mode');
+							} catch {
 							return null;
 						}
 					})();

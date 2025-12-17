@@ -11,11 +11,12 @@
 		<title>Pelvisana — Terms</title>
 	</head>
 	<body>
-		<script>
+			<script>
+				// @ts-nocheck
 				(() => {
 					const supported = ['en', 'es', 'ca'];
 					const fallback = 'en';
-					const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
+					const normalize = (l) => (l || '').toLowerCase().split(/[-_]/)[0];
 					const mode = (() => {
 						try {
 							return localStorage.getItem('pelvisana_lang_mode');
@@ -38,7 +39,7 @@
 					const target = `/${picked}/terms/` + location.search + location.hash;
 					location.replace(target.replaceAll(/\/+/g, '/'));
 				})();
-		</script>
+			</script>
 		<noscript>
 			<meta http-equiv="refresh" content="0; url=/en/terms/" />
 			<a href="/en/terms/">Continue</a>

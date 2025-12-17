@@ -18,11 +18,12 @@
 			<li><a href="/es/">Español</a></li>
 			<li><a href="/ca/">Català</a></li>
 		</ul>
-		<script>
+			<script>
+				// @ts-nocheck
 				(() => {
 					const supported = ['en', 'es', 'ca'];
 					const fallback = 'en';
-					const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
+					const normalize = (l) => (l || '').toLowerCase().split(/[-_]/)[0];
 					const mode = (() => {
 						try {
 							return localStorage.getItem('pelvisana_lang_mode');

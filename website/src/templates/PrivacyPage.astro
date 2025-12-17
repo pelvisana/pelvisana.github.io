@@ -18,10 +18,9 @@ const Content = ContentByLang[lang] as any;
 
 <BaseLayout lang={lang} pathname={pathname} title={`${s.legal.privacy.title} — ${s.siteName}`} description={s.footer.medicalDisclaimer}>
 	<header class="space-y-3">
-		<h1 class="text-4xl font-semibold tracking-tight text-slate-950">{s.legal.privacy.title}</h1>
+		<h1 class="text-4xl font-semibold tracking-tight text-slate-950 dark:text-white">{s.legal.privacy.title}</h1>
 	</header>
-	<section class="prose prose-slate mt-8 max-w-none prose-a:text-ink-700 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-950">
+	<section class="prose prose-slate mt-8 max-w-none prose-a:text-ink-700 prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-950 dark:prose-invert dark:prose-a:text-ink-200">
 		<Content />
 	</section>
 </BaseLayout>
-

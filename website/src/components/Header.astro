@@ -3,6 +3,7 @@ import type { Lang } from '../i18n/config';
 import { STRINGS } from '../i18n/strings';
 import LanguageSwitcher from './LanguageSwitcher.astro';
 import { SITE } from '../config/site';
+import ThemeToggle from './ThemeToggle.astro';
 
 type Props = { lang: Lang; pathname: string };
 const { lang, pathname } = Astro.props;
@@ -19,22 +20,22 @@ const nav = [
 ];
 ---
 
-<header class="border-b border-slate-200/70 bg-white/70 backdrop-blur">
+<header class="sticky top-0 z-40 border-b border-slate-200/70 bg-white/70 backdrop-blur dark:border-slate-800/70 dark:bg-slate-950/50">
 	<div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6 lg:px-8">
 		<a href={basePath} class="flex items-center gap-3">
 			<img src="/img/logo-400w.webp" width="40" height="40" alt="Pelvisana" class="h-10 w-10" loading="eager" />
-			<span class="text-base font-semibold tracking-tight">{s.siteName}</span>
+			<span class="text-base font-semibold tracking-tight text-slate-950 dark:text-white">{s.siteName}</span>
 		</a>
 
 		<nav aria-label="Primary" class="hidden items-center gap-6 md:flex">
 			{nav.map((item) => {
-	const isActive = pathname === item.href;
+				const isActive = pathname === item.href;
 				return (
 					<a
 						href={item.href}
 						class:list={[
-							'text-sm font-medium text-slate-700 hover:text-slate-950',
-							isActive && 'text-slate-950',
+							'text-sm font-medium text-slate-700 transition hover:text-slate-950 dark:text-slate-200 dark:hover:text-white',
+							isActive && 'text-slate-950 dark:text-white',
 						]}
 					>
 						{item.label}
@@ -43,14 +44,15 @@ const nav = [
 			})}
 		</nav>
 
-		<div class="flex items-center gap-3">
-			<button
-				id="mobile-menu-button"
-				type="button"
-				class="inline-flex items-center justify-center rounded-full border border-slate-300 bg-white p-2 text-slate-900 shadow-sm hover:bg-slate-50 md:hidden"
-				aria-controls="mobile-menu"
-				aria-expanded="false"
-			>
+			<div class="flex items-center gap-3">
+				<ThemeToggle compact />
+				<button
+					id="mobile-menu-button"
+					type="button"
+					class="inline-flex shrink-0 items-center justify-center rounded-full border border-slate-300 bg-white p-2 text-slate-900 shadow-sm transition hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800 md:hidden"
+					aria-controls="mobile-menu"
+					aria-expanded="false"
+				>
 				<span class="sr-only">Menu</span>
 				<svg id="icon-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<path d="M4 6h16" />
@@ -60,43 +62,48 @@ const nav = [
 				<svg id="icon-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="hidden h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 					<path d="M18 6 6 18" />
 					<path d="M6 6l12 12" />
-				</svg>
-			</button>
-			<LanguageSwitcher lang={lang} pathname={pathname} />
-			<a
-				href={contactHref}
-				class="hidden rounded-full bg-ink-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-ink-700 sm:inline-flex"
-			>
+					</svg>
+				</button>
+				<div class="hidden sm:block">
+					<LanguageSwitcher id="lang-desktop" lang={lang} pathname={pathname} />
+				</div>
+				<a
+					href={contactHref}
+					class="hidden rounded-full bg-ink-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-ink-700 sm:inline-flex"
+				>
 				{s.cta.contact}
 			</a>
 		</div>
 	</div>
 
-	<div id="mobile-menu" class="hidden border-t border-slate-200/70 bg-white md:hidden">
-		<nav aria-label="Mobile" class="mx-auto grid max-w-6xl gap-2 px-4 py-4 sm:px-6">
-			{nav.map((item) => {
-				const isActive = pathname === item.href;
-				return (
+		<div id="mobile-menu" class="hidden border-t border-slate-200/70 bg-white dark:border-slate-800/70 dark:bg-slate-950 md:hidden">
+			<nav aria-label="Mobile" class="mx-auto grid max-w-6xl gap-2 px-4 py-4 sm:px-6">
+				{nav.map((item) => {
+					const isActive = pathname === item.href;
+					return (
 					<a
 						href={item.href}
 						class:list={[
-							'rounded-xl px-3 py-2 text-sm font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950',
-							isActive && 'bg-slate-50 text-slate-950',
+							'rounded-xl px-3 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-50 hover:text-slate-950 dark:text-slate-200 dark:hover:bg-slate-900 dark:hover:text-white',
+							isActive && 'bg-slate-50 text-slate-950 dark:bg-slate-900 dark:text-white',
 						]}
 					>
 						{item.label}
 					</a>
 				);
 			})}
-			<a
-				href={contactHref}
-				class="mt-2 inline-flex items-center justify-center rounded-xl bg-ink-600 px-4 py-3 text-sm font-semibold text-white shadow-sm hover:bg-ink-700"
-			>
-				{s.cta.contact}
-			</a>
-		</nav>
-	</div>
-</header>
+				<a
+					href={contactHref}
+					class="mt-2 inline-flex items-center justify-center rounded-xl bg-ink-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-ink-700"
+				>
+					{s.cta.contact}
+				</a>
+				<div class="mt-2">
+					<LanguageSwitcher id="lang-mobile" lang={lang} pathname={pathname} />
+				</div>
+			</nav>
+		</div>
+	</header>
 
 <script is:inline>
 	(() => {

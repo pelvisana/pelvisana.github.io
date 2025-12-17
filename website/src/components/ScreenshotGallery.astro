@@ -10,7 +10,7 @@ const { items } = Astro.props;
 	<div class="flex gap-4">
 		{items.map((item) => (
 			<figure class="w-[240px] shrink-0 sm:w-[260px]">
-				<div class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+				<div class="overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900/40">
 					<img
 						alt={item.title}
 						loading="lazy"
@@ -22,9 +22,8 @@ const { items } = Astro.props;
 						height="1179"
 					/>
 				</div>
-				<figcaption class="mt-2 text-sm text-slate-700">{item.title}</figcaption>
+				<figcaption class="mt-2 text-sm text-slate-700 dark:text-slate-300">{item.title}</figcaption>
 			</figure>
 		))}
 	</div>
 </div>
-

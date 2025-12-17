@@ -6,3 +6,7 @@ export const SITE = {
 	appStoreUrl: null as string | null,
 	githubUrl: 'https://github.com/pelvisana',
 } as const;
+
+export const SOCIAL = {
+	ogImage: '/img/og.png',
+} as const;

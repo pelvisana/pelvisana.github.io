@@ -3,9 +3,10 @@ import type { Lang } from './config';
 export const STRINGS: Record<
 	Lang,
 	{
-		siteName: string;
-		tagline: string;
-		nav: { home: string; app: string; evidence: string; faq: string; support: string };
+			siteName: string;
+			tagline: string;
+			seo: { ogImageAlt: string };
+			nav: { home: string; app: string; evidence: string; faq: string; support: string };
 		cta: { getApp: string; contact: string };
 		store: { googlePlay: string; appStore: string; comingSoon: string };
 		media: { screenshots: { videos: string; calendar: string; evaluation: string; bibliography: string } };
@@ -30,6 +31,11 @@ export const STRINGS: Record<
 			features: { title: string; items: { title: string; body: string }[] };
 		};
 		evidence: { title: string; description: string; cta: string };
+		evidenceUi: {
+			highlights: { guidelinesTitle: string; guidelinesBody: string; techniqueTitle: string; techniqueBody: string; safetyTitle: string; safetyBody: string };
+			sourcesTitle: string;
+			sources: { name: string; note: string; url: string }[];
+		};
 		faq: { title: string; description: string; items: { q: string; a: string }[] };
 		support: { title: string; description: string; emailLabel: string };
 		legal: { privacy: { title: string }; terms: { title: string } };
@@ -38,6 +44,7 @@ export const STRINGS: Record<
 	en: {
 		siteName: 'Pelvisana',
 		tagline: 'Pelvic floor health, grounded in evidence.',
+		seo: { ogImageAlt: 'Pelvisana — evidence-based pelvic floor training app' },
 		nav: { home: 'Home', app: 'App', evidence: 'Evidence', faq: 'FAQ', support: 'Support' },
 		cta: { getApp: 'Get the app', contact: 'Contact' },
 		store: { googlePlay: 'Get it on Google Play', appStore: 'Download on the App Store', comingSoon: 'Coming soon' },
@@ -55,15 +62,15 @@ export const STRINGS: Record<
 			copyright: '© Pelvisana',
 		},
 		home: {
-			title: 'Build better pelvic floor habits — with clarity and confidence',
+			title: 'Train your pelvic floor — with clarity and confidence',
 			description:
-				'Pelvisana is a pelvic floor health app designed to help you learn, practice, and stay consistent with evidence-based pelvic floor muscle training.',
+				'Pelvisana helps you learn pelvic floor muscle training (PFMT), build consistency, and understand what the evidence says—at your own pace.',
 			primaryCta: 'Explore the evidence',
 			secondaryCta: 'See app features',
 			sections: {
 				download: {
 					title: 'Download',
-					body: 'Start with the guided routines and track your progress over time.',
+					body: 'Start with guided routines and keep track of your progress over time.',
 				},
 				what: {
 					title: 'What is Pelvisana?',
@@ -116,6 +123,34 @@ export const STRINGS: Record<
 				'Pelvic floor muscle training (PFMT) is supported by clinical guidelines and systematic reviews for several common pelvic floor symptoms.',
 			cta: 'Explore sources and how we translate them into the app.',
 		},
+		evidenceUi: {
+			highlights: {
+				guidelinesTitle: 'Guidelines',
+				guidelinesBody: 'We prioritize clinical guidelines and systematic reviews.',
+				techniqueTitle: 'Technique',
+				techniqueBody: 'PFMT includes both contraction and relaxation; the right plan depends on the person.',
+				safetyTitle: 'Safety',
+				safetyBody: 'Pain or red flags are a reason to pause and seek clinical advice.',
+			},
+			sourcesTitle: 'Key sources',
+			sources: [
+				{
+					name: 'NICE NG123',
+					note: 'Urinary incontinence and pelvic organ prolapse in women: management.',
+					url: 'https://www.nice.org.uk/guidance/ng123',
+				},
+				{
+					name: 'Cochrane CD005654',
+					note: 'PFMT versus no treatment for urinary incontinence in women.',
+					url: 'https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005654.pub4/full',
+				},
+				{
+					name: 'International Continence Society (ICS)',
+					note: 'Professional society resources and definitions.',
+					url: 'https://www.ics.org/',
+				},
+			],
+		},
 		faq: {
 			title: 'FAQ',
 			description: 'Quick answers about pelvic floor training and how Pelvisana approaches it.',
@@ -144,6 +179,7 @@ export const STRINGS: Record<
 	es: {
 		siteName: 'Pelvisana',
 		tagline: 'Salud del suelo pélvico, basada en evidencia.',
+		seo: { ogImageAlt: 'Pelvisana — app de suelo pélvico basada en evidencia' },
 		nav: { home: 'Inicio', app: 'App', evidence: 'Evidencia', faq: 'Preguntas', support: 'Soporte' },
 		cta: { getApp: 'Descargar la app', contact: 'Contacto' },
 		store: { googlePlay: 'Disponible en Google Play', appStore: 'Descargar en App Store', comingSoon: 'Próximamente' },
@@ -161,9 +197,9 @@ export const STRINGS: Record<
 			copyright: '© Pelvisana',
 		},
 		home: {
-			title: 'Mejora tus hábitos del suelo pélvico — con claridad y confianza',
+			title: 'Entrena tu suelo pélvico — con claridad y confianza',
 			description:
-				'Pelvisana es una app de salud del suelo pélvico diseñada para ayudarte a aprender, practicar y mantener la constancia con entrenamiento basado en evidencia.',
+				'Pelvisana te ayuda a aprender el entrenamiento del suelo pélvico (PFMT), mantener la constancia y entender qué dice la evidencia— a tu ritmo.',
 			primaryCta: 'Ver la evidencia',
 			secondaryCta: 'Ver funciones de la app',
 			sections: {
@@ -222,6 +258,34 @@ export const STRINGS: Record<
 				'El entrenamiento del suelo pélvico (PFMT) está respaldado por guías clínicas y revisiones sistemáticas para varios síntomas frecuentes.',
 			cta: 'Explora fuentes y cómo las traducimos a la app.',
 		},
+		evidenceUi: {
+			highlights: {
+				guidelinesTitle: 'Guías',
+				guidelinesBody: 'Priorizamos guías clínicas y revisiones sistemáticas.',
+				techniqueTitle: 'Técnica',
+				techniqueBody: 'El PFMT incluye contracción y relajación; el plan adecuado depende de cada persona.',
+				safetyTitle: 'Seguridad',
+				safetyBody: 'El dolor o señales de alarma son motivo para pausar y consultar a un profesional.',
+			},
+			sourcesTitle: 'Fuentes clave',
+			sources: [
+				{
+					name: 'NICE NG123',
+					note: 'Incontinencia urinaria y prolapso en mujeres: manejo.',
+					url: 'https://www.nice.org.uk/guidance/ng123',
+				},
+				{
+					name: 'Cochrane CD005654',
+					note: 'PFMT frente a no tratamiento para la incontinencia urinaria en mujeres.',
+					url: 'https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005654.pub4/full',
+				},
+				{
+					name: 'International Continence Society (ICS)',
+					note: 'Recursos y definiciones de una sociedad científica.',
+					url: 'https://www.ics.org/',
+				},
+			],
+		},
 		faq: {
 			title: 'Preguntas frecuentes',
 			description: 'Respuestas rápidas sobre PFMT y el enfoque de Pelvisana.',
@@ -250,6 +314,7 @@ export const STRINGS: Record<
 	ca: {
 		siteName: 'Pelvisana',
 		tagline: 'Salut del sòl pelvià, basada en evidència.',
+		seo: { ogImageAlt: 'Pelvisana — app de sòl pelvià basada en evidència' },
 		nav: { home: 'Inici', app: 'App', evidence: 'Evidència', faq: 'Preguntes', support: 'Suport' },
 		cta: { getApp: 'Obtenir l’app', contact: 'Contacte' },
 		store: { googlePlay: 'Disponible a Google Play', appStore: 'Descarregar a l’App Store', comingSoon: 'Properament' },
@@ -267,9 +332,9 @@ export const STRINGS: Record<
 			copyright: '© Pelvisana',
 		},
 		home: {
-			title: 'Millora els hàbits del sòl pelvià — amb claredat i confiança',
+			title: 'Entrena el sòl pelvià — amb claredat i confiança',
 			description:
-				'Pelvisana és una app de salut del sòl pelvià pensada per ajudar-te a aprendre, practicar i mantenir la constància amb entrenament basat en evidència.',
+				'Pelvisana t’ajuda a aprendre l’entrenament del sòl pelvià (PFMT), mantenir la constància i entendre què diu l’evidència— al teu ritme.',
 			primaryCta: 'Veure l’evidència',
 			secondaryCta: 'Veure funcions de l’app',
 			sections: {
@@ -327,6 +392,34 @@ export const STRINGS: Record<
 			description:
 				'L’entrenament del sòl pelvià (PFMT) està recolzat per guies clíniques i revisions sistemàtiques per a diversos símptomes freqüents.',
 			cta: 'Explora fonts i com les traduïm a l’app.',
+		},
+		evidenceUi: {
+			highlights: {
+				guidelinesTitle: 'Guies',
+				guidelinesBody: 'Prioritzem guies clíniques i revisions sistemàtiques.',
+				techniqueTitle: 'Tècnica',
+				techniqueBody: 'El PFMT inclou contracció i relaxació; el pla adequat depèn de cada persona.',
+				safetyTitle: 'Seguretat',
+				safetyBody: 'El dolor o senyals d’alarma són motiu per aturar-se i consultar un professional.',
+			},
+			sourcesTitle: 'Fonts clau',
+			sources: [
+				{
+					name: 'NICE NG123',
+					note: 'Incontinència urinària i prolapse en dones: maneig.',
+					url: 'https://www.nice.org.uk/guidance/ng123',
+				},
+				{
+					name: 'Cochrane CD005654',
+					note: 'PFMT vs. no tractament per a la incontinència urinària en dones.',
+					url: 'https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD005654.pub4/full',
+				},
+				{
+					name: 'International Continence Society (ICS)',
+					note: 'Recursos i definicions d’una societat científica.',
+					url: 'https://www.ics.org/',
+				},
+			],
 		},
 		faq: {
 			title: 'Preguntes freqüents',

@@ -12,25 +12,32 @@
 	</head>
 	<body>
 		<script>
-			(() => {
-				const supported = ['en', 'es', 'ca'];
-				const fallback = 'en';
-				const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
-				const stored = (() => {
-					try {
-						return localStorage.getItem('pelvisana_lang');
-					} catch {
+				(() => {
+					const supported = ['en', 'es', 'ca'];
+					const fallback = 'en';
+					const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
+					const mode = (() => {
+						try {
+							return localStorage.getItem('pelvisana_lang_mode');
+						} catch {
+							return null;
+						}
+					})();
+					const stored = (() => {
+						try {
+							return localStorage.getItem('pelvisana_lang');
+						} catch {
 						return null;
 					}
+					})();
+					const languages = [navigator.language].concat(navigator.languages || []).filter(Boolean);
+					const picked =
+						(mode === 'manual' && stored && supported.includes(stored) ? stored : null) ||
+						languages.map(normalize).find((l) => supported.includes(l)) ||
+						fallback;
+					const target = `/${picked}/privacy/` + location.search + location.hash;
+					location.replace(target.replaceAll(/\/+/g, '/'));
 				})();
-				const languages = [navigator.language].concat(navigator.languages || []).filter(Boolean);
-				const picked =
-					(stored && supported.includes(stored) ? stored : null) ||
-					languages.map(normalize).find((l) => supported.includes(l)) ||
-					fallback;
-				const target = `/${picked}/privacy/` + location.search + location.hash;
-				location.replace(target.replaceAll(/\/+/g, '/'));
-			})();
 		</script>
 		<noscript>
 			<meta http-equiv="refresh" content="0; url=/en/privacy/" />

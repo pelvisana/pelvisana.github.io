@@ -19,25 +19,32 @@
 			<li><a href="/ca/">Català</a></li>
 		</ul>
 		<script>
-			(() => {
-				const supported = ['en', 'es', 'ca'];
-				const fallback = 'en';
-				const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
-				const stored = (() => {
-					try {
-						return localStorage.getItem('pelvisana_lang');
-					} catch {
+				(() => {
+					const supported = ['en', 'es', 'ca'];
+					const fallback = 'en';
+					const normalize = (l: string) => (l || '').toLowerCase().split(/[-_]/)[0];
+					const mode = (() => {
+						try {
+							return localStorage.getItem('pelvisana_lang_mode');
+						} catch {
+							return null;
+						}
+					})();
+					const stored = (() => {
+						try {
+							return localStorage.getItem('pelvisana_lang');
+						} catch {
 						return null;
 					}
+					})();
+					const languages = [navigator.language].concat(navigator.languages || []).filter(Boolean);
+					const picked =
+						(mode === 'manual' && stored && supported.includes(stored) ? stored : null) ||
+						languages.map(normalize).find((l) => supported.includes(l)) ||
+						fallback;
+					const target = `/${picked}/`;
+					setTimeout(() => location.replace(target), 800);
 				})();
-				const languages = [navigator.language].concat(navigator.languages || []).filter(Boolean);
-				const picked =
-					(stored && supported.includes(stored) ? stored : null) ||
-					languages.map(normalize).find((l) => supported.includes(l)) ||
-					fallback;
-				const target = `/${picked}/`;
-				setTimeout(() => location.replace(target), 800);
-			})();
 		</script>
 	</body>
 </html>

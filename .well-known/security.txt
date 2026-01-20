@@ -1,0 +1,3 @@
+Contact: mailto:pelvisana@onmedic.org
+Preferred-Languages: en, es, ca
+Canonical: https://pelvisana.github.io/.well-known/security.txt

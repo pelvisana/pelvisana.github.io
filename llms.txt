@@ -2,18 +2,19 @@
 
 Pelvisana is a pelvic floor health project. This website supports the Pelvisana app with evidence-informed education about pelvic floor muscle training (PFMT), safety notes, and links to support/legal pages.
 
-Languages: English (`/en/`), Español (`/es/`), Català (`/ca/`).
-Default routing: browser language when available, fallback to English.
+Languages: Español (`/es/`), English (`/en/`), Català (`/ca/`).
+Default routing: browser language when available, fallback to Español.
 
 ## Key pages
 
-- Home: `/en/` (also `/es/`, `/ca/`)
-- App: `/en/app/`
-- Evidence: `/en/evidence/`
-- FAQ: `/en/faq/`
-- Support: `/en/support/`
-- Privacy: `/en/privacy/`
-- Terms: `/en/terms/`
+- Home: `/es/` (also `/en/`, `/ca/`)
+- App: `/es/app/`
+- Evidence: `/es/evidence/`
+- Guides: `/es/guias/`
+- FAQ: `/es/faq/`
+- Support: `/es/support/`
+- Privacy: `/es/privacy/`
+- Terms: `/es/terms/`
 
 ## App links
 

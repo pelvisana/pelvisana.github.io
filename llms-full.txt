@@ -7,8 +7,8 @@ Pelvisana is a pelvic floor health project and mobile app focused on pelvic floo
 Primary audience: people interested in pelvic floor health, pelvic floor muscle training, urinary incontinence, pelvic organ prolapse symptoms, and postpartum recovery, plus clinicians evaluating digital support tools.
 
 Languages:
-- English: `/en/`
 - Español: `/es/`
+- English: `/en/`
 - Català: `/ca/`
 
 ## Product summary
@@ -19,13 +19,14 @@ Languages:
 
 ## Key website pages
 
-- Home: `/en/` (also `/es/`, `/ca/`)
-- App: `/en/app/`
-- Evidence: `/en/evidence/`
-- FAQ: `/en/faq/`
-- Support: `/en/support/`
-- Privacy: `/en/privacy/`
-- Terms: `/en/terms/`
+- Home: `/es/` (also `/en/`, `/ca/`)
+- App: `/es/app/`
+- Evidence: `/es/evidence/`
+- Guides: `/es/guias/`
+- FAQ: `/es/faq/`
+- Support: `/es/support/`
+- Privacy: `/es/privacy/`
+- Terms: `/es/terms/`
 
 ## Medical disclaimer (important)
 
@@ -43,4 +44,3 @@ Starting points used on the site:
 ## Contact
 
 Email: pelvisana@onmedic.org
-

@@ -1,5 +1,8 @@
 # Pelvisana (Extended LLM Context)
 
+Canonical site: https://www.pelvisana.com/
+Last updated: 2026-07-12
+
 This file provides additional context for language models.
 
 Pelvisana is a pelvic floor health project and mobile app focused on pelvic floor muscle training (PFMT) education, habit support, and evidence-informed guidance. This website contains educational content and does not provide medical advice.

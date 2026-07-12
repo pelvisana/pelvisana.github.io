@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.pelvisana.com/sitemap-index.xml
+
+# AI-readable site overview: https://www.pelvisana.com/llms.txt

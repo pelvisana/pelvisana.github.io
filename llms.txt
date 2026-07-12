@@ -1,5 +1,8 @@
 # Pelvisana
 
+Canonical site: https://www.pelvisana.com/
+Last updated: 2026-07-12
+
 Pelvisana is a pelvic floor health project. This website supports the Pelvisana app with evidence-informed education about pelvic floor muscle training (PFMT), safety notes, and links to support/legal pages.
 
 Languages: Español (`/es/`), English (`/en/`), Català (`/ca/`).

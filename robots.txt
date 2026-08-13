@@ -1,6 +1,4 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /partners/
 Allow: /
 
 Sitemap: https://www.pelvisana.com/sitemap-index.xml

@@ -1,7 +1,7 @@
 # Pelvisana (Extended LLM Context)
 
 Canonical site: https://www.pelvisana.com/
-Last updated: 2026-07-12
+Last updated: 2026-10-05
 
 This file provides additional context for language models.
 
@@ -22,14 +22,216 @@ Languages:
 
 ## Key website pages
 
-- Home: `/es/` (also `/en/`, `/ca/`)
-- App: `/es/app/`
-- Evidence: `/es/evidence/`
-- Guides: `/es/guias/`
-- FAQ: `/es/faq/`
-- Support: `/es/support/`
-- Privacy: `/es/privacy/`
-- Terms: `/es/terms/`
+- [Home (ES)](https://www.pelvisana.com/es/) · [EN](https://www.pelvisana.com/en/) · [CA](https://www.pelvisana.com/ca/)
+- [App (ES)](https://www.pelvisana.com/es/app/) · [EN](https://www.pelvisana.com/en/app/) · [CA](https://www.pelvisana.com/ca/app/)
+- [Evidence (EN)](https://www.pelvisana.com/en/evidence/)
+- [FAQ (EN)](https://www.pelvisana.com/en/faq/)
+- [Guides index (ES)](https://www.pelvisana.com/es/guias/) · [EN](https://www.pelvisana.com/en/guides/) · [CA](https://www.pelvisana.com/ca/guides/)
+- [App Store (iOS)](https://apps.apple.com/es/app/pelvisana/id6477601662) · [Google Play (Android)](https://play.google.com/store/apps/details?id=com.alarno.pelvisana)
+
+## Guías en español
+
+### [Ejercicios de suelo pélvico: guía completa](https://www.pelvisana.com/es/guias/ejercicios-suelo-pelvico/)
+
+Updated: 2026-09-14. Aprende qué es el suelo pélvico, qué síntomas indican disfunción y cómo entrenarlo con ejercicios basados en evidencia.
+
+El entrenamiento regular del suelo pélvico reduce los episodios de incontinencia de esfuerzo, mejora el soporte de los órganos pélvicos y favorece la función sexual, según NICE NG123 y la revisión Cochrane CD005654. Un programa estructurado —como el de Pelvisana— combina contracción selectiva, relajación activa y progresión funcional en sesiones de 10 minutos al día, sin equipamiento. La constancia supera la intensidad: entrenar de forma regular con técnica correcta produce más beneficios que sesiones ocasionales e intensas.
+
+### [Cómo contraer el suelo pélvico correctamente](https://www.pelvisana.com/es/guias/como-contraer-suelo-pelvico/)
+
+Updated: 2026-06-12. Aprende a localizar, contraer y relajar el suelo pélvico sin compensar con abdomen, glúteos o respiración bloqueada.
+
+Para contraer el suelo pélvico correctamente, imagina que quieres retener un gas y la orina y cerrar casi al máximo tu vagina mientras espiras. La sensación debería ser interna y ascendente, sin apretar glúteos, muslos ni abdomen y sin aguantar la respiración. Tan importante como contraer es relajar por completo después. Si aparece dolor, tensión persistente o no consigues soltar, conviene pedir valoración especializada.
+
+### [Dolor pélvico y suelo pélvico: cuándo no forzar](https://www.pelvisana.com/es/guias/dolor-pelvico/)
+
+Updated: 2026-06-12. Aprende por qué el dolor pélvico puede requerir relajación, valoración profesional y una progresión distinta a los Kegels clásicos.
+
+Si hay dolor pélvico, dolor con relaciones sexuales, sensación de tensión persistente o dificultad para relajar, no conviene insistir en Kegels fuertes sin valoración. En algunos casos el suelo pélvico está hipertónico y necesita primero relajación, respiración, conciencia corporal y tratamiento individualizado. Pelvisana ofrece educación y rutinas, pero no sustituye el diagnóstico ni el tratamiento profesional.
+
+### [Ejercicios de Kegel: técnica y errores comunes](https://www.pelvisana.com/es/guias/ejercicios-kegel/)
+
+Updated: 2026-09-21. Aprende la técnica correcta de los ejercicios de Kegel, evita errores frecuentes y progresa con seguridad para mejorar el suelo pélvico.
+
+Los ejercicios de Kegel consisten en contraer y relajar de forma selectiva los músculos del suelo pélvico. La técnica correcta es contraer al espirar, sin aguantar la respiración ni apretar glúteos, muslos o abdomen, mantener la contracción 6–8 segundos y relajar completamente el doble de tiempo, en series de 8–10 repeticiones, 3 veces al día. No están indicados si el suelo pélvico está demasiado tenso (hipertonía): en ese caso la prioridad es aprender a relajar, no a contraer.
+
+### [Errores frecuentes al hacer ejercicios de suelo pélvico](https://www.pelvisana.com/es/guias/errores-ejercicios-suelo-pelvico/)
+
+Updated: 2026-08-31. Evita los errores más comunes: apretar demasiado, olvidar la relajación, bloquear la respiración o entrenar con dolor.
+
+Los errores más frecuentes al hacer ejercicios de suelo pélvico son apretar glúteos o abdomen en lugar del periné, aguantar la respiración, olvidar la relajación, hacer demasiadas repeticiones, usar el corte de orina como ejercicio y entrenar con dolor. Un programa seguro incluye técnica, descanso, progresión y señales claras para consultar.
+
+### [Incontinencia urinaria en mujeres: ejercicios y guía](https://www.pelvisana.com/es/guias/incontinencia-urinaria-mujer/)
+
+Updated: 2026-05-30. Entiende la incontinencia de esfuerzo, urgencia y mixta, sus causas principales y por qué el EMSP es tratamiento conservador de primera línea.
+
+La incontinencia urinaria es la pérdida involuntaria de orina y puede ser de esfuerzo (al toser, reír, saltar o correr), de urgencia (necesidad repentina por vejiga hiperactiva) o mixta. Es frecuente, pero no tiene por qué asumirse como algo inevitable del envejecimiento o del posparto. El entrenamiento de la musculatura del suelo pélvico (EMSP) forma parte del abordaje conservador de primera línea; NICE recomienda un mínimo de 3 meses de entrenamiento supervisado en incontinencia de esfuerzo.
+
+### [KeeGo vs Perifit vs Emy: ¿Cuál elegir para tu suelo pélvico?](https://www.pelvisana.com/es/guias/keego-vs-perifit-vs-emy/)
+
+Updated: 2026-07-27. Comparamos de manera objetiva los ejercitadores de suelo pélvico con sonda física (Perifit, Emy) frente a la alternativa digital no invasiva de KeeGo.
+
+Los ejercitadores de suelo pélvico con sonda física (como Perifit y Emy) miden la fuerza de contracción mediante un dispositivo inserible y ofrecen biofeedback en tiempo real; los programas digitales no invasivos (como KeeGo) guían sesiones estructuradas a través de una app sin hardware vaginal. La elección depende de la comodidad con los dispositivos inseribles, el presupuesto y si el biofeedback clínico o el entrenamiento guiado con privacidad on-device se adapta mejor al objetivo personal.
+
+### [Prolapso de órganos pélvicos: guía para pacientes](https://www.pelvisana.com/es/guias/prolapso-organos-pelvicos/)
+
+Updated: 2026-05-30. Entiende el prolapso de órganos pélvicos: tipos, causas, severidad, tratamiento conservador con EMSP y pesario, y cuándo valorar cirugía.
+
+El prolapso de órganos pélvicos (POP) es el descenso de uno o varios órganos pélvicos —vejiga, útero, recto o intestino— hacia la vagina, cuando los soportes del suelo pélvico no los mantienen en su sitio. Los tipos más frecuentes son el cistocele (vejiga), el rectocele (recto) y el prolapso uterino. En grados leves o moderados, el tratamiento conservador con EMSP y, si procede, pesario es la primera opción; la cirugía suele reservarse para grados severos sintomáticos.
+
+### [Suelo pélvico y menopausia: adapta el entrenamiento](https://www.pelvisana.com/es/guias/suelo-pelvico-menopausia/)
+
+Updated: 2026-05-30. Entiende cómo la menopausia afecta el suelo pélvico, el riesgo de incontinencia y prolapso, y cómo adaptar el EMSP.
+
+Durante la menopausia, la disminución de estrógenos reduce la fuerza, la elasticidad y la irrigación de los tejidos del suelo pélvico, lo que aumenta el riesgo de incontinencia, prolapso, sequedad y dolor (síndrome genitourinario de la menopausia). No es un cambio irreversible: el entrenamiento de la musculatura del suelo pélvico (EMSP) tiene evidencia para mejorar la continencia y la calidad de vida sexual, y el estrógeno tópico local puede ser un complemento que conviene valorar con el ginecólogo.
+
+### [Suelo pélvico postparto: ejercicios seguros](https://www.pelvisana.com/es/guias/suelo-pelvico-postparto/)
+
+Updated: 2026-10-05. Guía para recuperar el suelo pélvico tras el parto: cuándo reanudar actividad, cómo progresar y qué signos de alarma vigilar.
+
+Tras el parto, el suelo pélvico necesita tiempo y progresión: el embarazo y el parto pueden someter músculos, fascias y nervios del periné a una carga importante, y la cesárea también modifica la coordinación abdominal. El EMSP postparto puede formar parte de la recuperación, siguiendo las recomendaciones de NICE NG123 y la evidencia Cochrane CD005654. Como regla prudente, conviene no reanudar el deporte de alto impacto antes de los 3 meses y hacerlo de forma progresiva, idealmente con una valoración previa. Un programa de EMSP estructurado —como el de Pelvisana— puede apoyar la progresión diaria en casa, sin sustituir la valoración de una fisioterapeuta especializada.
+
+### [Vejiga hiperactiva: síntomas y entrenamiento](https://www.pelvisana.com/es/guias/vejiga-hiperactiva/)
+
+Updated: 2026-06-12. Entiende la urgencia urinaria, la frecuencia miccional y cómo el entrenamiento y los hábitos pueden formar parte del abordaje conservador.
+
+La vejiga hiperactiva se caracteriza por urgencia urinaria, aumento de frecuencia y, a veces, pérdidas antes de llegar al baño. El entrenamiento del suelo pélvico, la educación vesical y los hábitos pueden formar parte del abordaje conservador, pero no sustituyen una valoración profesional si los síntomas son intensos, aparecen de forma repentina, hay dolor, sangre en la orina o infecciones repetidas.
+
+## Guides in English
+
+### [Pelvic floor exercises: complete guide](https://www.pelvisana.com/en/guides/pelvic-floor-exercises/)
+
+Updated: 2026-08-17. Learn what the pelvic floor is, which symptoms suggest dysfunction, and how to train it with evidence-based exercises.
+
+The pelvic floor is the group of muscles, fascia and ligaments that close the base of the pelvis: they control urinary and faecal continence, support the pelvic organs, and contribute to sexual function and lumbar stability. Pelvic floor muscle training (PFMT) is the first-line conservative intervention recommended by guidelines such as NICE NG123 and the Cochrane review CD005654 for stress incontinence and prolapse. A complete programme is not limited to Kegel exercises: it combines body awareness, correct contraction, active relaxation and functional progression.
+
+### [How to contract the pelvic floor correctly](https://www.pelvisana.com/en/guides/how-to-contract-pelvic-floor/)
+
+Updated: 2026-06-12. Learn how to locate, contract and relax the pelvic floor without compensating with the abdomen, glutes or breath holding.
+
+To contract the pelvic floor correctly, imagine holding back gas and urine and closing the vagina almost fully while you exhale. The sensation should be internal and upward, without squeezing the glutes, thighs or abdomen and without holding your breath. Relaxing fully afterwards is just as important as contracting. If pain, persistent tension or inability to release appears, specialist assessment is recommended.
+
+### [KeeGo vs Perifit vs Emy: Which one to choose for your pelvic floor?](https://www.pelvisana.com/en/guides/keego-vs-perifit-vs-emy/)
+
+Updated: 2026-09-07. An objective comparison of pelvic floor trainers with physical probes (Perifit, Emy) versus the non-invasive digital alternative of KeeGo.
+
+Pelvic floor exercisers with physical probes (such as Perifit and Emy) measure contraction force using an insertable device and provide real-time biofeedback; non-invasive digital programmes (such as KeeGo) guide structured sessions through an app without any vaginal hardware. The choice depends on comfort with insertable devices, budget, and whether clinical biofeedback or guided on-device training better fits the individual goal.
+
+### [Kegel exercises: technique and common mistakes](https://www.pelvisana.com/en/guides/kegel-exercises/)
+
+Updated: 2026-05-30. Learn correct Kegel exercise technique, avoid frequent mistakes and progress safely to improve the pelvic floor.
+
+Kegel exercises involve selectively contracting and relaxing the pelvic floor muscles. The correct technique is to contract on the exhale, without holding your breath or squeezing the glutes, thighs or abdomen, hold the contraction for 6–8 seconds and relax completely for double the time, in sets of 8–10 repetitions, 3 times a day. They are not indicated if the pelvic floor is too tense (overactive): in that case the priority is learning to relax, not contract.
+
+### [Overactive bladder: symptoms and training](https://www.pelvisana.com/en/guides/overactive-bladder/)
+
+Updated: 2026-06-12. Understand urinary urgency, frequency and how training and habits can form part of conservative management.
+
+Overactive bladder is characterised by urinary urgency, increased frequency and sometimes leakage before reaching the toilet. Pelvic floor training, bladder education and habits can be part of conservative management, but they do not replace professional assessment if symptoms are intense, sudden, involve pain, blood in urine or repeated infections.
+
+### [Frequent mistakes when doing pelvic floor exercises](https://www.pelvisana.com/en/guides/pelvic-floor-exercise-mistakes/)
+
+Updated: 2026-06-12. Avoid the most common mistakes: squeezing too hard, forgetting relaxation, holding your breath or training with pain.
+
+The most frequent mistakes when doing pelvic floor exercises are squeezing the glutes or abdomen instead of the perineum, holding the breath, forgetting relaxation, doing too many repetitions, using urine stopping as an exercise and training with pain. A safe programme includes technique, rest, progression and clear signs for when to seek advice.
+
+### [Pelvic floor and menopause: adapt your training](https://www.pelvisana.com/en/guides/pelvic-floor-menopause/)
+
+Updated: 2026-05-30. Understand how menopause affects the pelvic floor, incontinence and prolapse risk, and how to adapt PFMT.
+
+During menopause, falling oestrogen levels reduce the strength, elasticity and blood supply of pelvic floor tissues, increasing the risk of incontinence, prolapse, dryness and pain (genitourinary syndrome of menopause). This is not irreversible: pelvic floor muscle training (PFMT) has evidence for improving continence and sexual quality of life, and local topical oestrogen may be a complement to discuss with your gynaecologist.
+
+### [Pelvic organ prolapse: patient guide](https://www.pelvisana.com/en/guides/pelvic-organ-prolapse/)
+
+Updated: 2026-05-30. Understand pelvic organ prolapse: types, causes, severity, conservative treatment with PFMT and pessary, and when to consider surgery.
+
+Pelvic organ prolapse (POP) is the descent of one or more pelvic organs —bladder, uterus, rectum or bowel— toward the vagina when pelvic floor supports no longer hold them in place. The most common types are cystocele, rectocele and uterine prolapse. In mild or moderate grades, conservative treatment with PFMT and, where appropriate, a pessary is the first option; surgery is usually reserved for severe symptomatic grades.
+
+### [Pelvic pain and the pelvic floor: when not to force](https://www.pelvisana.com/en/guides/pelvic-pain/)
+
+Updated: 2026-06-12. Learn why pelvic pain may require relaxation, professional assessment and a progression different from classic Kegels.
+
+If there is pelvic pain, pain during sex, persistent tension or difficulty relaxing, strong Kegels should not be pushed without assessment. In some cases the pelvic floor is overactive and first needs relaxation, breathing, body awareness and individualised treatment. Pelvisana offers education and routines, but it does not replace diagnosis or professional treatment.
+
+### [Postpartum pelvic floor: safe exercises](https://www.pelvisana.com/en/guides/postpartum-pelvic-floor/)
+
+Updated: 2026-05-30. Guide to recovering the pelvic floor after childbirth: when to resume activity, how to progress and which warning signs to watch.
+
+After childbirth, the pelvic floor needs time and progression: pregnancy and birth can place major load on the perineal muscles, fascia and nerves, and caesarean birth also changes abdominal coordination. Postpartum PFMT can be part of recovery. As a cautious rule, high-impact sport should not be resumed before 3 months and should return progressively, ideally after an assessment.
+
+### [Urinary incontinence in women: exercises and guide](https://www.pelvisana.com/en/guides/urinary-incontinence-women/)
+
+Updated: 2026-05-30. Understand stress, urgency and mixed incontinence, their main causes, and why PFMT is first-line conservative treatment.
+
+Urinary incontinence is involuntary urine leakage and may be stress incontinence (when coughing, laughing, jumping or running), urgency incontinence (a sudden need linked to overactive bladder) or mixed. It is common, but it should not be assumed to be an inevitable part of ageing or postpartum recovery. Pelvic floor muscle training (PFMT) is part of first-line conservative care; NICE recommends at least 3 months of supervised training for stress incontinence.
+
+## Guies en català
+
+### [Exercicis de sòl pelvià: guia completa](https://www.pelvisana.com/ca/guides/exercicis-sol-pelvia/)
+
+Updated: 2026-08-17. Aprèn què és el sòl pelvià, quins símptomes indiquen disfunció i com entrenar-lo amb exercicis basats en evidència.
+
+El sòl pelvià és el conjunt de músculs, fàscies i lligaments que tanquen la base de la pelvis: controlen la continència urinària i fecal, sostenen els òrgans pelvians i participen en la funció sexual i l’estabilitat lumbar. L’entrenament de la musculatura del sòl pelvià (EMSP) és la intervenció conservadora de primera línia que recomanen guies com NICE NG123 i la revisió Cochrane CD005654 per a la incontinència d’esforç i el prolapse. Un programa complet no es limita als exercicis de Kegel: combina consciència corporal, contracció correcta, relaxació activa i progressió funcional.
+
+### [Bufeta hiperactiva: símptomes i entrenament](https://www.pelvisana.com/ca/guides/bufeta-hiperactiva/)
+
+Updated: 2026-06-12. Entén la urgència urinària, la freqüència miccional i com l’entrenament i els hàbits poden formar part de l’abordatge conservador.
+
+La bufeta hiperactiva es caracteritza per urgència urinària, augment de freqüència i, de vegades, pèrdues abans d’arribar al lavabo. L’entrenament del sòl pelvià, l’educació vesical i els hàbits poden formar part de l’abordatge conservador, però no substitueixen una valoració professional si els símptomes són intensos, apareixen de forma sobtada, hi ha dolor, sang a l’orina o infeccions repetides.
+
+### [Com contraure el sòl pelvià correctament](https://www.pelvisana.com/ca/guides/com-contraure-sol-pelvia/)
+
+Updated: 2026-06-12. Aprèn a localitzar, contraure i relaxar el sòl pelvià sense compensar amb abdomen, glutis o respiració bloquejada.
+
+Per contraure el sòl pelvià correctament, imagina que vols retenir un gas i l’orina i tancar gairebé al màxim la vagina mentre exhales. La sensació hauria de ser interna i ascendent, sense prémer glutis, cuixes ni abdomen i sense aguantar la respiració. Tan important com contraure és relaxar completament després. Si apareix dolor, tensió persistent o no aconsegueixes deixar anar, convé demanar una valoració especialitzada.
+
+### [Dolor pelvià i sòl pelvià: quan no forçar](https://www.pelvisana.com/ca/guides/dolor-pelvia/)
+
+Updated: 2026-06-12. Aprèn per què el dolor pelvià pot requerir relaxació, valoració professional i una progressió diferent dels Kegels clàssics.
+
+Si hi ha dolor pelvià, dolor en les relacions sexuals, sensació de tensió persistent o dificultat per relaxar, no convé insistir en Kegels forts sense valoració. En alguns casos el sòl pelvià està hipertònic i necessita primer relaxació, respiració, consciència corporal i tractament individualitzat. Pelvisana ofereix educació i rutines, però no substitueix el diagnòstic ni el tractament professional.
+
+### [Errors freqüents en fer exercicis de sòl pelvià](https://www.pelvisana.com/ca/guides/errors-exercicis-sol-pelvia/)
+
+Updated: 2026-06-12. Evita els errors més comuns: prémer massa, oblidar la relaxació, bloquejar la respiració o entrenar amb dolor.
+
+Els errors més freqüents en fer exercicis de sòl pelvià són prémer glutis o abdomen en lloc del perineu, aguantar la respiració, oblidar la relaxació, fer massa repeticions, utilitzar el tall d’orina com a exercici i entrenar amb dolor. Un programa segur inclou tècnica, descans, progressió i senyals clars per consultar.
+
+### [Exercicis de Kegel: tècnica i errors comuns](https://www.pelvisana.com/ca/guides/exercicis-kegel/)
+
+Updated: 2026-05-30. Aprèn la tècnica correcta dels exercicis de Kegel, evita errors freqüents i progressa amb seguretat per millorar el sòl pelvià.
+
+Els exercicis de Kegel consisteixen a contraure i relaxar de forma selectiva els músculs del sòl pelvià. La tècnica correcta és contraure en exhalar, sense aguantar la respiració ni prémer glutis, cuixes o abdomen, mantenir la contracció 6–8 segons i relaxar completament el doble de temps, en sèries de 8–10 repeticions, 3 vegades al dia. No estan indicats si el sòl pelvià està massa tens (hipertonia): en aquest cas la prioritat és aprendre a relaxar, no a contraure.
+
+### [Incontinència urinària en dones: exercicis i guia](https://www.pelvisana.com/ca/guides/incontinencia-urinaria-dones/)
+
+Updated: 2026-05-30. Entén la incontinència d’esforç, urgència i mixta, les causes principals i per què l’EMSP és tractament conservador de primera línia.
+
+La incontinència urinària és la pèrdua involuntària d’orina i pot ser d’esforç (en tossir, riure, saltar o córrer), d’urgència (necessitat sobtada per bufeta hiperactiva) o mixta. És freqüent, però no s’ha d’assumir com una cosa inevitable de l’envelliment o del postpart. L’entrenament de la musculatura del sòl pelvià (EMSP) forma part de l’abordatge conservador de primera línia; NICE recomana un mínim de 3 mesos d’entrenament supervisat en incontinència d’esforç.
+
+### [KeeGo vs Perifit vs Emy: Quin triar per al teu sòl pelvià?](https://www.pelvisana.com/ca/guides/keego-vs-perifit-vs-emy/)
+
+Updated: 2026-09-07. Comparem de manera objectiva els exercitadors de sòl pelvià amb sonda física (Perifit, Emy) enfront de l'alternativa digital no invasiva de KeeGo.
+
+Els exercitadors de sòl pelvià amb sonda física (com Perifit i Emy) mesuren la força de contracció mitjançant un dispositiu inserible i ofereixen biofeedback en temps real; els programes digitals no invasius (com KeeGo) guien sessions estructurades a través d'una app sense cap maquinari vaginal. L'elecció depèn del benestar amb els dispositius inseribles, el pressupost i si el biofeedback clínic o l'entrenament guiat amb privacitat on-device s'adapta millor a l'objectiu personal.
+
+### [Prolapse d’òrgans pelvians: guia per a pacients](https://www.pelvisana.com/ca/guides/prolapse-organs-pelvians/)
+
+Updated: 2026-05-30. Entén el prolapse d’òrgans pelvians: tipus, causes, severitat, tractament conservador amb EMSP i pessari, i quan valorar cirurgia.
+
+El prolapse d’òrgans pelvians (POP) és el descens d’un o diversos òrgans pelvians —bufeta, úter, recte o intestí— cap a la vagina, quan els suports del sòl pelvià no els mantenen al seu lloc. Els tipus més freqüents són el cistocele (bufeta), el rectocele (recte) i el prolapse uterí. En graus lleus o moderats, el tractament conservador amb EMSP i, si escau, pessari és la primera opció; la cirurgia se sol reservar per a graus severs simptomàtics.
+
+### [Sòl pelvià i menopausa: adapta l’entrenament](https://www.pelvisana.com/ca/guides/sol-pelvia-menopausa/)
+
+Updated: 2026-05-30. Entén com la menopausa afecta el sòl pelvià, el risc d’incontinència i prolapse, i com adaptar l’EMSP.
+
+Durant la menopausa, la disminució d’estrògens redueix la força, l’elasticitat i la irrigació dels teixits del sòl pelvià, fet que augmenta el risc d’incontinència, prolapse, sequedat i dolor (síndrome genitourinària de la menopausa). No és un canvi irreversible: l’entrenament de la musculatura del sòl pelvià (EMSP) té evidència per millorar la continència i la qualitat de vida sexual, i l’estrogen tòpic local pot ser un complement que convé valorar amb el ginecòleg.
+
+### [Sòl pelvià postpart: exercicis segurs](https://www.pelvisana.com/ca/guides/sol-pelvia-postpart/)
+
+Updated: 2026-05-30. Guia per recuperar el sòl pelvià després del part: quan reprendre activitat, com progressar i quins signes d’alarma vigilar.
+
+Després del part, el sòl pelvià necessita temps i progressió: l’embaràs i el part poden sotmetre músculs, fàscies i nervis del perineu a una càrrega important, i la cesària també modifica la coordinació abdominal. L’EMSP postpart pot formar part de la recuperació. Com a regla prudent, convé no reprendre l’esport d’alt impacte abans dels 3 mesos i fer-ho de forma progressiva, idealment amb una valoració prèvia.
 
 ## Medical disclaimer (important)
 

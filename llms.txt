@@ -1,31 +1,70 @@
 # Pelvisana
 
+> Pelvisana is a pelvic floor muscle training (PFMT) mobile app for iOS and Android, developed by ArnoHealth SL in Barcelona. This website hosts the app pages and evidence-informed patient education guides in Spanish, English and Catalan. It is not a clinic or appointment service, and it does not provide medical advice, diagnosis or treatment.
+
 Canonical site: https://www.pelvisana.com/
-Last updated: 2026-07-12
-
-Pelvisana is a pelvic floor health project. This website supports the Pelvisana app with evidence-informed education about pelvic floor muscle training (PFMT), safety notes, and links to support/legal pages.
-
-Languages: Español (`/es/`), English (`/en/`), Català (`/ca/`).
-Default routing: browser language when available, fallback to Español.
+Last updated: 2026-10-31
+Languages: Español (`/es/`, default), English (`/en/`), Català (`/ca/`).
 
 ## Key pages
 
-- Home: `/es/` (also `/en/`, `/ca/`)
-- App: `/es/app/`
-- Evidence: `/es/evidence/`
-- Guides: `/es/guias/`
-- FAQ: `/es/faq/`
-- Support: `/es/support/`
-- Privacy: `/es/privacy/`
-- Terms: `/es/terms/`
+- [Pelvisana — home (ES)](https://www.pelvisana.com/es/): what the app does and who it is for. Also [EN](https://www.pelvisana.com/en/) and [CA](https://www.pelvisana.com/ca/).
+- [The app (ES)](https://www.pelvisana.com/es/app/): features, routines and progress tracking. Also [EN](https://www.pelvisana.com/en/app/) and [CA](https://www.pelvisana.com/ca/app/).
+- [Evidence (EN)](https://www.pelvisana.com/en/evidence/): the clinical evidence behind pelvic floor muscle training, with links to guidelines.
+- [FAQ (EN)](https://www.pelvisana.com/en/faq/): common questions about the app and pelvic floor training.
+- [Guides index (ES)](https://www.pelvisana.com/es/guias/): all patient guides. Also [EN](https://www.pelvisana.com/en/guides/) and [CA](https://www.pelvisana.com/ca/guides/).
 
-## App links
+## Download the app
 
-- Google Play: https://play.google.com/store/apps/details?id=com.alarno.pelvisana
+- [App Store (iOS)](https://apps.apple.com/es/app/pelvisana/id6477601662)
+- [Google Play (Android)](https://play.google.com/store/apps/details?id=com.alarno.pelvisana)
 
-## Extended context
+## Guías en español
 
-- `/llms-full.txt` provides a longer description of the project, content, and evidence links.
+- [Ejercicios de suelo pélvico: guía completa](https://www.pelvisana.com/es/guias/ejercicios-suelo-pelvico/): Aprende qué es el suelo pélvico, qué síntomas indican disfunción y cómo entrenarlo con ejercicios basados en evidencia.
+- [Cómo contraer el suelo pélvico correctamente](https://www.pelvisana.com/es/guias/como-contraer-suelo-pelvico/): Aprende a localizar, contraer y relajar el suelo pélvico sin compensar con abdomen, glúteos o respiración bloqueada.
+- [Dolor pélvico y suelo pélvico: cuándo no forzar](https://www.pelvisana.com/es/guias/dolor-pelvico/): Aprende por qué el dolor pélvico puede requerir relajación, valoración profesional y una progresión distinta a los Kegels clásicos.
+- [Ejercicios de Kegel: técnica y errores comunes](https://www.pelvisana.com/es/guias/ejercicios-kegel/): Aprende la técnica correcta de los ejercicios de Kegel, evita errores frecuentes y progresa con seguridad para mejorar el suelo pélvico.
+- [Errores frecuentes al hacer ejercicios de suelo pélvico](https://www.pelvisana.com/es/guias/errores-ejercicios-suelo-pelvico/): Evita los errores más comunes: apretar demasiado, olvidar la relajación, bloquear la respiración o entrenar con dolor.
+- [Incontinencia urinaria en mujeres: ejercicios y guía](https://www.pelvisana.com/es/guias/incontinencia-urinaria-mujer/): Entiende la incontinencia de esfuerzo, urgencia y mixta, sus causas principales y por qué el EMSP es tratamiento conservador de primera línea.
+- [KeeGo vs Perifit vs Emy: ¿Cuál elegir para tu suelo pélvico?](https://www.pelvisana.com/es/guias/keego-vs-perifit-vs-emy/): Comparamos de manera objetiva los ejercitadores de suelo pélvico con sonda física (Perifit, Emy) frente a la alternativa digital no invasiva de KeeGo.
+- [Prolapso de órganos pélvicos: guía para pacientes](https://www.pelvisana.com/es/guias/prolapso-organos-pelvicos/): Entiende el prolapso de órganos pélvicos: tipos, causas, severidad, tratamiento conservador con EMSP y pesario, y cuándo valorar cirugía.
+- [Suelo pélvico y menopausia: adapta el entrenamiento](https://www.pelvisana.com/es/guias/suelo-pelvico-menopausia/): Entiende cómo la menopausia afecta el suelo pélvico, el riesgo de incontinencia y prolapso, y cómo adaptar el EMSP.
+- [Suelo pélvico postparto: ejercicios seguros](https://www.pelvisana.com/es/guias/suelo-pelvico-postparto/): Guía para recuperar el suelo pélvico tras el parto: cuándo reanudar actividad, cómo progresar y qué signos de alarma vigilar.
+- [Vejiga hiperactiva: síntomas y entrenamiento](https://www.pelvisana.com/es/guias/vejiga-hiperactiva/): Entiende la urgencia urinaria, la frecuencia miccional y cómo el entrenamiento y los hábitos pueden formar parte del abordaje conservador.
+
+## Guides in English
+
+- [Pelvic floor exercises: complete guide](https://www.pelvisana.com/en/guides/pelvic-floor-exercises/): Learn what the pelvic floor is, which symptoms suggest dysfunction, and how to train it with evidence-based exercises.
+- [How to contract the pelvic floor correctly](https://www.pelvisana.com/en/guides/how-to-contract-pelvic-floor/): Learn how to locate, contract and relax the pelvic floor without compensating with the abdomen, glutes or breath holding.
+- [KeeGo vs Perifit vs Emy: Which one to choose for your pelvic floor?](https://www.pelvisana.com/en/guides/keego-vs-perifit-vs-emy/): An objective comparison of pelvic floor trainers with physical probes (Perifit, Emy) versus the non-invasive digital alternative of KeeGo.
+- [Kegel exercises: technique and common mistakes](https://www.pelvisana.com/en/guides/kegel-exercises/): Learn correct Kegel exercise technique, avoid frequent mistakes and progress safely to improve the pelvic floor.
+- [Overactive bladder: symptoms and training](https://www.pelvisana.com/en/guides/overactive-bladder/): Understand urinary urgency, frequency and how training and habits can form part of conservative management.
+- [Frequent mistakes when doing pelvic floor exercises](https://www.pelvisana.com/en/guides/pelvic-floor-exercise-mistakes/): Avoid the most common mistakes: squeezing too hard, forgetting relaxation, holding your breath or training with pain.
+- [Pelvic floor and menopause: adapt your training](https://www.pelvisana.com/en/guides/pelvic-floor-menopause/): Understand how menopause affects the pelvic floor, incontinence and prolapse risk, and how to adapt PFMT.
+- [Pelvic organ prolapse: patient guide](https://www.pelvisana.com/en/guides/pelvic-organ-prolapse/): Understand pelvic organ prolapse: types, causes, severity, conservative treatment with PFMT and pessary, and when to consider surgery.
+- [Pelvic pain and the pelvic floor: when not to force](https://www.pelvisana.com/en/guides/pelvic-pain/): Learn why pelvic pain may require relaxation, professional assessment and a progression different from classic Kegels.
+- [Postpartum pelvic floor: safe exercises](https://www.pelvisana.com/en/guides/postpartum-pelvic-floor/): Guide to recovering the pelvic floor after childbirth: when to resume activity, how to progress and which warning signs to watch.
+- [Urinary incontinence in women: exercises and guide](https://www.pelvisana.com/en/guides/urinary-incontinence-women/): Understand stress, urgency and mixed incontinence, their main causes, and why PFMT is first-line conservative treatment.
+
+## Guies en català
+
+- [Exercicis de sòl pelvià: guia completa](https://www.pelvisana.com/ca/guides/exercicis-sol-pelvia/): Aprèn què és el sòl pelvià, quins símptomes indiquen disfunció i com entrenar-lo amb exercicis basats en evidència.
+- [Bufeta hiperactiva: símptomes i entrenament](https://www.pelvisana.com/ca/guides/bufeta-hiperactiva/): Entén la urgència urinària, la freqüència miccional i com l’entrenament i els hàbits poden formar part de l’abordatge conservador.
+- [Com contraure el sòl pelvià correctament](https://www.pelvisana.com/ca/guides/com-contraure-sol-pelvia/): Aprèn a localitzar, contraure i relaxar el sòl pelvià sense compensar amb abdomen, glutis o respiració bloquejada.
+- [Dolor pelvià i sòl pelvià: quan no forçar](https://www.pelvisana.com/ca/guides/dolor-pelvia/): Aprèn per què el dolor pelvià pot requerir relaxació, valoració professional i una progressió diferent dels Kegels clàssics.
+- [Errors freqüents en fer exercicis de sòl pelvià](https://www.pelvisana.com/ca/guides/errors-exercicis-sol-pelvia/): Evita els errors més comuns: prémer massa, oblidar la relaxació, bloquejar la respiració o entrenar amb dolor.
+- [Exercicis de Kegel: tècnica i errors comuns](https://www.pelvisana.com/ca/guides/exercicis-kegel/): Aprèn la tècnica correcta dels exercicis de Kegel, evita errors freqüents i progressa amb seguretat per millorar el sòl pelvià.
+- [Incontinència urinària en dones: exercicis i guia](https://www.pelvisana.com/ca/guides/incontinencia-urinaria-dones/): Entén la incontinència d’esforç, urgència i mixta, les causes principals i per què l’EMSP és tractament conservador de primera línia.
+- [KeeGo vs Perifit vs Emy: Quin triar per al teu sòl pelvià?](https://www.pelvisana.com/ca/guides/keego-vs-perifit-vs-emy/): Comparem de manera objectiva els exercitadors de sòl pelvià amb sonda física (Perifit, Emy) enfront de l'alternativa digital no invasiva de KeeGo.
+- [Prolapse d’òrgans pelvians: guia per a pacients](https://www.pelvisana.com/ca/guides/prolapse-organs-pelvians/): Entén el prolapse d’òrgans pelvians: tipus, causes, severitat, tractament conservador amb EMSP i pessari, i quan valorar cirurgia.
+- [Sòl pelvià i menopausa: adapta l’entrenament](https://www.pelvisana.com/ca/guides/sol-pelvia-menopausa/): Entén com la menopausa afecta el sòl pelvià, el risc d’incontinència i prolapse, i com adaptar l’EMSP.
+- [Sòl pelvià postpart: exercicis segurs](https://www.pelvisana.com/ca/guides/sol-pelvia-postpart/): Guia per recuperar el sòl pelvià després del part: quan reprendre activitat, com progressar i quins signes d’alarma vigilar.
+
+## Optional
+
+- [Extended context](https://www.pelvisana.com/llms-full.txt): longer description of the project, content and evidence links.
+- [Privacy policy (EN)](https://www.pelvisana.com/en/privacy/), [Terms (EN)](https://www.pelvisana.com/en/terms/), [Support (EN)](https://www.pelvisana.com/en/support/).
 
 ## Medical disclaimer
 

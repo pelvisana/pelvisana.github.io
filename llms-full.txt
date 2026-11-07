@@ -1,7 +1,7 @@
 # Pelvisana (Extended LLM Context)
 
 Canonical site: https://www.pelvisana.com/
-Last updated: 2026-10-05
+Last updated: 2026-11-07
 
 This file provides additional context for language models.
 
@@ -61,9 +61,15 @@ Updated: 2026-08-31. Evita los errores más comunes: apretar demasiado, olvidar 
 
 Los errores más frecuentes al hacer ejercicios de suelo pélvico son apretar glúteos o abdomen en lugar del periné, aguantar la respiración, olvidar la relajación, hacer demasiadas repeticiones, usar el corte de orina como ejercicio y entrenar con dolor. Un programa seguro incluye técnica, descanso, progresión y señales claras para consultar.
 
+### [Incontinencia urinaria de esfuerzo: qué es, causas y ejercicios](https://www.pelvisana.com/es/guias/incontinencia-urinaria-esfuerzo/)
+
+Updated: 2026-11-07. Escapes al toser, reír o saltar: qué es la incontinencia urinaria de esfuerzo, por qué ocurre, cómo se diagnostica y qué ejercicios funcionan según la evidencia.
+
+La incontinencia urinaria de esfuerzo es la pérdida involuntaria de orina cuando aumenta la presión en el abdomen: al toser, estornudar, reír, saltar, correr o levantar peso. Ocurre porque el suelo pélvico y el cierre de la uretra no aguantan esa presión. El entrenamiento de la musculatura del suelo pélvico (EMSP) es el tratamiento de primera línea: NICE recomienda al menos 3 meses de entrenamiento supervisado, y en la revisión Cochrane de 2018 las mujeres que lo hicieron tuvieron unas 8 veces más probabilidad de referir curación (56 % frente a 6 %).
+
 ### [Incontinencia urinaria en mujeres: ejercicios y guía](https://www.pelvisana.com/es/guias/incontinencia-urinaria-mujer/)
 
-Updated: 2026-05-30. Entiende la incontinencia de esfuerzo, urgencia y mixta, sus causas principales y por qué el EMSP es tratamiento conservador de primera línea.
+Updated: 2026-11-07. Ejercicios para la incontinencia urinaria en la mujer paso a paso, tipos (esfuerzo, urgencia, mixta), causas y por qué el EMSP es la primera línea.
 
 La incontinencia urinaria es la pérdida involuntaria de orina y puede ser de esfuerzo (al toser, reír, saltar o correr), de urgencia (necesidad repentina por vejiga hiperactiva) o mixta. Es frecuente, pero no tiene por qué asumirse como algo inevitable del envejecimiento o del posparto. El entrenamiento de la musculatura del suelo pélvico (EMSP) forma parte del abordaje conservador de primera línea; NICE recomienda un mínimo de 3 meses de entrenamiento supervisado en incontinencia de esfuerzo.
 
@@ -159,9 +165,15 @@ Updated: 2026-05-30. Guide to recovering the pelvic floor after childbirth: when
 
 After childbirth, the pelvic floor needs time and progression: pregnancy and birth can place major load on the perineal muscles, fascia and nerves, and caesarean birth also changes abdominal coordination. Postpartum PFMT can be part of recovery. As a cautious rule, high-impact sport should not be resumed before 3 months and should return progressively, ideally after an assessment.
 
+### [Stress urinary incontinence: causes, diagnosis and exercises](https://www.pelvisana.com/en/guides/stress-urinary-incontinence/)
+
+Updated: 2026-11-07. Leaking when you cough, laugh or jump: what stress urinary incontinence is, why it happens, how it is diagnosed and which exercises work according to the evidence.
+
+Stress urinary incontinence is involuntary urine leakage when pressure in the abdomen rises: when you cough, sneeze, laugh, jump, run or lift something. It happens because the pelvic floor and the urethral closure mechanism cannot hold against that pressure. Pelvic floor muscle training (PFMT) is the first-line treatment: NICE recommends at least 3 months of supervised training, and in the 2018 Cochrane review women who did it were about 8 times more likely to report cure (56% versus 6%).
+
 ### [Urinary incontinence in women: exercises and guide](https://www.pelvisana.com/en/guides/urinary-incontinence-women/)
 
-Updated: 2026-05-30. Understand stress, urgency and mixed incontinence, their main causes, and why PFMT is first-line conservative treatment.
+Updated: 2026-11-07. Understand stress, urgency and mixed incontinence, their main causes, and why PFMT is first-line conservative treatment.
 
 Urinary incontinence is involuntary urine leakage and may be stress incontinence (when coughing, laughing, jumping or running), urgency incontinence (a sudden need linked to overactive bladder) or mixed. It is common, but it should not be assumed to be an inevitable part of ageing or postpartum recovery. Pelvic floor muscle training (PFMT) is part of first-line conservative care; NICE recommends at least 3 months of supervised training for stress incontinence.
 
@@ -205,9 +217,15 @@ Els exercicis de Kegel consisteixen a contraure i relaxar de forma selectiva els
 
 ### [Incontinència urinària en dones: exercicis i guia](https://www.pelvisana.com/ca/guides/incontinencia-urinaria-dones/)
 
-Updated: 2026-05-30. Entén la incontinència d’esforç, urgència i mixta, les causes principals i per què l’EMSP és tractament conservador de primera línia.
+Updated: 2026-11-07. Entén la incontinència d’esforç, urgència i mixta, les causes principals i per què l’EMSP és tractament conservador de primera línia.
 
 La incontinència urinària és la pèrdua involuntària d’orina i pot ser d’esforç (en tossir, riure, saltar o córrer), d’urgència (necessitat sobtada per bufeta hiperactiva) o mixta. És freqüent, però no s’ha d’assumir com una cosa inevitable de l’envelliment o del postpart. L’entrenament de la musculatura del sòl pelvià (EMSP) forma part de l’abordatge conservador de primera línia; NICE recomana un mínim de 3 mesos d’entrenament supervisat en incontinència d’esforç.
+
+### [Incontinència urinària d'esforç: què és, causes i exercicis](https://www.pelvisana.com/ca/guides/incontinencia-urinaria-esforc/)
+
+Updated: 2026-11-07. Pèrdues en tossir, riure o saltar: què és la incontinència urinària d'esforç, per què passa, com es diagnostica i quins exercicis funcionen segons l'evidència.
+
+La incontinència urinària d'esforç és la pèrdua involuntària d'orina quan augmenta la pressió a l'abdomen: en tossir, esternudar, riure, saltar, córrer o aixecar pes. Passa perquè el sòl pelvià i el tancament de la uretra no aguanten aquesta pressió. L'entrenament de la musculatura del sòl pelvià (EMSP) és el tractament de primera línia: NICE recomana com a mínim 3 mesos d'entrenament supervisat, i a la revisió Cochrane del 2018 les dones que el van fer van tenir unes 8 vegades més probabilitat de referir curació (56 % enfront del 6 %).
 
 ### [KeeGo vs Perifit vs Emy: Quin triar per al teu sòl pelvià?](https://www.pelvisana.com/ca/guides/keego-vs-perifit-vs-emy/)
 

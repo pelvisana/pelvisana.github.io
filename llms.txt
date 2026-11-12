@@ -3,7 +3,7 @@
 > Pelvisana is a pelvic floor muscle training (PFMT) mobile app for iOS and Android, developed by ArnoHealth SL in Barcelona. This website hosts the app pages and evidence-informed patient education guides in Spanish, English and Catalan. It is not a clinic or appointment service, and it does not provide medical advice, diagnosis or treatment.
 
 Canonical site: https://www.pelvisana.com/
-Last updated: 2026-10-31
+Last updated: 2026-11-12
 Languages: Español (`/es/`, default), English (`/en/`), Català (`/ca/`).
 
 ## Key pages
@@ -33,6 +33,7 @@ Languages: Español (`/es/`, default), English (`/en/`), Català (`/ca/`).
 - [Suelo pélvico y menopausia: adapta el entrenamiento](https://www.pelvisana.com/es/guias/suelo-pelvico-menopausia/): Entiende cómo la menopausia afecta el suelo pélvico, el riesgo de incontinencia y prolapso, y cómo adaptar el EMSP.
 - [Suelo pélvico postparto: ejercicios seguros](https://www.pelvisana.com/es/guias/suelo-pelvico-postparto/): Guía para recuperar el suelo pélvico tras el parto: cuándo reanudar actividad, cómo progresar y qué signos de alarma vigilar.
 - [Vejiga hiperactiva: síntomas y entrenamiento](https://www.pelvisana.com/es/guias/vejiga-hiperactiva/): Entiende la urgencia urinaria, la frecuencia miccional y cómo el entrenamiento y los hábitos pueden formar parte del abordaje conservador.
+- [Ejercicios hipopresivos y suelo pélvico: beneficios, diferencias con Kegel y técnica](https://www.pelvisana.com/es/guias/ejercicios-hipopresivos-suelo-pelvico/): Qué son los hipopresivos, cómo influyen en el suelo pélvico, diferencias clave frente a Kegel y técnica paso a paso con seguridad.
 
 ## Guides in English
 
@@ -48,6 +49,7 @@ Languages: Español (`/es/`, default), English (`/en/`), Català (`/ca/`).
 - [Postpartum pelvic floor: safe exercises](https://www.pelvisana.com/en/guides/postpartum-pelvic-floor/): Guide to recovering the pelvic floor after childbirth: when to resume activity, how to progress and which warning signs to watch.
 - [Urinary incontinence in women: exercises and guide](https://www.pelvisana.com/en/guides/urinary-incontinence-women/): Understand stress, urgency and mixed incontinence, their main causes, and why PFMT is first-line conservative treatment.
 - [Stress urinary incontinence: causes, diagnosis and exercises](https://www.pelvisana.com/en/guides/stress-urinary-incontinence/): Leaking when you cough, laugh or jump: why it happens, how it is diagnosed and which exercises work (Cochrane 2018: 56% cure with PFMT versus 6%).
+- [Hypopressive exercises and pelvic floor: benefits, differences with Kegel and technique](https://www.pelvisana.com/en/guides/hypopressive-exercises-pelvic-floor/): What hypopressive exercises are, how they affect the pelvic floor, differences compared to Kegels, and how to practice them safely step by step.
 
 ## Guies en català
 
@@ -62,6 +64,7 @@ Languages: Español (`/es/`, default), English (`/en/`), Català (`/ca/`).
 - [Prolapse d’òrgans pelvians: guia per a pacients](https://www.pelvisana.com/ca/guides/prolapse-organs-pelvians/): Entén el prolapse d’òrgans pelvians: tipus, causes, severitat, tractament conservador amb EMSP i pessari, i quan valorar cirurgia.
 - [Sòl pelvià i menopausa: adapta l’entrenament](https://www.pelvisana.com/ca/guides/sol-pelvia-menopausa/): Entén com la menopausa afecta el sòl pelvià, el risc d’incontinència i prolapse, i com adaptar l’EMSP.
 - [Sòl pelvià postpart: exercicis segurs](https://www.pelvisana.com/ca/guides/sol-pelvia-postpart/): Guia per recuperar el sòl pelvià després del part: quan reprendre activitat, com progressar i quins signes d’alarma vigilar.
+- [Exercicis hipopressius i sòl pelvià: beneficis, diferències amb Kegel i tècnica](https://www.pelvisana.com/ca/guides/exercicis-hipopressius-sol-pelvia/): Què són els hipopressius, com influeixen en el sòl pelvià, diferències clau respecte a Kegel i tècnica pas a pas amb seguretat.
 
 ## Optional
 

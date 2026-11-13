@@ -1,7 +1,7 @@
 # Pelvisana (Extended LLM Context)
 
 Canonical site: https://www.pelvisana.com/
-Last updated: 2026-11-12
+Last updated: 2026-11-13
 
 This file provides additional context for language models.
 
@@ -51,7 +51,7 @@ Si hay dolor pélvico, dolor con relaciones sexuales, sensación de tensión per
 
 ### [Ejercicios hipopresivos y suelo pélvico: beneficios, diferencias con Kegel y técnica](https://www.pelvisana.com/es/guias/ejercicios-hipopresivos-suelo-pelvico/)
 
-Updated: 2026-11-12. Descubre qué son los ejercicios hipopresivos, cómo influyen en el suelo pélvico, en qué se diferencian de Kegel y cómo realizarlos paso a paso con seguridad.
+Updated: 2026-11-13. Descubre qué son los ejercicios hipopresivos, cómo influyen en el suelo pélvico, en qué se diferencian de Kegel y cómo realizarlos paso a paso con seguridad.
 
 Los ejercicios hipopresivos (gimnasia abdominal hipopresiva o GAH) son técnicas posturales y respiratorias que generan una presión negativa dentro del abdomen y la pelvis, activando de forma refleja el músculo transverso del abdomen y el suelo pélvico mientras descomprimen las vísceras pélvicas. A diferencia de los ejercicios de Kegel —que consisten en una contracción voluntaria y directa de la musculatura perineal—, los hipopresivos mejoran el tono de reposo involuntario sin sobrecargar el periné. No sustituyen a los Kegel, sino que se complementan: las guías clínicas recomiendan combinarlos en el postparto y en prolapsos leves (grados I y II), priorizando Kegel si hay incontinencia de esfuerzo manifiesta y evitando los hipopresivos durante el embarazo o con hipertensión arterial no controlada.
 
@@ -125,7 +125,7 @@ To contract the pelvic floor correctly, imagine holding back gas and urine and c
 
 ### [Hypopressive exercises and pelvic floor: benefits, differences with Kegel and technique](https://www.pelvisana.com/en/guides/hypopressive-exercises-pelvic-floor/)
 
-Updated: 2026-11-12. Learn what hypopressive exercises are, how they affect the pelvic floor, key differences compared to Kegels, and how to practice them safely step by step.
+Updated: 2026-11-13. Learn what hypopressive exercises are, how they affect the pelvic floor, key differences compared to Kegels, and how to practice them safely step by step.
 
 Hypopressive exercises (hypopressive abdominal gymnastics) are postural and breathing techniques that generate negative pressure within the abdominal and pelvic cavities, reflexively activating the transverse abdominis and deep pelvic floor muscles while decompressing pelvic organs. Unlike Kegel exercises — which rely on voluntary, direct contraction of the perineal muscles —, hypopressives restore involuntary resting tone without loading the perineum. They do not replace Kegels; rather, clinical guidelines recommend combining both postpartum and for mild pelvic organ prolapse (grades I and II), prioritising Kegels when stress urinary incontinence is prominent and avoiding hypopressives during pregnancy or untreated hypertension.
 
@@ -223,7 +223,7 @@ Els errors més freqüents en fer exercicis de sòl pelvià són prémer glutis 
 
 ### [Exercicis hipopressius i sòl pelvià: beneficis, diferències amb Kegel i tècnica](https://www.pelvisana.com/ca/guides/exercicis-hipopressius-sol-pelvia/)
 
-Updated: 2026-11-12. Descobreix què són els exercicis hipopressius, com influeixen en el sòl pelvià, en què es diferencien de Kegel i com practicar-los pas a pas amb seguretat.
+Updated: 2026-11-13. Descobreix què són els exercicis hipopressius, com influeixen en el sòl pelvià, en què es diferencien de Kegel i com practicar-los pas a pas amb seguretat.
 
 Els exercicis hipopressius (gimnàstica abdominal hipopressiva o GAH) són tècniques posturals i respiratòries que redueixen la pressió dins de l'abdomen i la pelvis, activant de forma reflexa el múscul transvers de l'abdomen i el sòl pelvià mentre descomprimeixen les vísceres pèl·viques. A diferència dels exercicis de Kegel —que consisteixen en una contracció voluntària i directa de la musculatura perineal—, els hipopressius milloren el to muscular involuntari de repòs sense sobrecarregar el perineu. No substitueixen els Kegel, sinó que es complementen: les guies clíniques recomanen combinar-los en el postpart i en prolapses lleus (graus I i II), prioritzant Kegel si hi ha incontinència d'esforç manifesta i evitant els hipopressius durant l'embaràs o amb hipertensió arterial no controlada.
 

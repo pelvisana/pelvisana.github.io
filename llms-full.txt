@@ -1,7 +1,7 @@
 # Pelvisana (Extended LLM Context)
 
 Canonical site: https://www.pelvisana.com/
-Last updated: 2026-11-13
+Last updated: 2026-11-24
 
 This file provides additional context for language models.
 
@@ -79,11 +79,11 @@ Updated: 2026-11-07. Ejercicios para la incontinencia urinaria en la mujer paso 
 
 La incontinencia urinaria es la pérdida involuntaria de orina y puede ser de esfuerzo (al toser, reír, saltar o correr), de urgencia (necesidad repentina por vejiga hiperactiva) o mixta. Es frecuente, pero no tiene por qué asumirse como algo inevitable del envejecimiento o del posparto. El entrenamiento de la musculatura del suelo pélvico (EMSP) forma parte del abordaje conservador de primera línea; NICE recomienda un mínimo de 3 meses de entrenamiento supervisado en incontinencia de esfuerzo.
 
-### [KeeGo vs Perifit vs Emy: ¿Cuál elegir para tu suelo pélvico?](https://www.pelvisana.com/es/guias/keego-vs-perifit-vs-emy/)
+### [KeeGo, Perifit, Emy y Pelvisana: diferencias](https://www.pelvisana.com/es/guias/keego-vs-perifit-vs-emy/)
 
-Updated: 2026-07-27. Comparamos de manera objetiva los ejercitadores de suelo pélvico con sonda física (Perifit, Emy) frente a la alternativa digital no invasiva de KeeGo.
+Updated: 2026-11-24. Compara apps guiadas y dispositivos con sonda según fuentes del desarrollador y fabricante. KeeGo y Pelvisana son productos distintos.
 
-Los ejercitadores de suelo pélvico con sonda física (como Perifit y Emy) miden la fuerza de contracción mediante un dispositivo inserible y ofrecen biofeedback en tiempo real; los programas digitales no invasivos (como KeeGo) guían sesiones estructuradas a través de una app sin hardware vaginal. La elección depende de la comodidad con los dispositivos inseribles, el presupuesto y si el biofeedback clínico o el entrenamiento guiado con privacidad on-device se adapta mejor al objetivo personal.
+KeeGo pertenece a Qeniva Studio y no es Pelvisana. Perifit Care+ y Emy Trainer utilizan sondas insertables con biofeedback en una app. Pelvisana ofrece rutinas guiadas sin sonda vaginal conectada. Son diferencias de producto, no pruebas de resultados clínicos equivalentes.
 
 ### [Prolapso de órganos pélvicos: guía para pacientes](https://www.pelvisana.com/es/guias/prolapso-organos-pelvicos/)
 
@@ -129,11 +129,11 @@ Updated: 2026-11-13. Learn what hypopressive exercises are, how they affect the 
 
 Hypopressive exercises (hypopressive abdominal gymnastics) are postural and breathing techniques that generate negative pressure within the abdominal and pelvic cavities, reflexively activating the transverse abdominis and deep pelvic floor muscles while decompressing pelvic organs. Unlike Kegel exercises — which rely on voluntary, direct contraction of the perineal muscles —, hypopressives restore involuntary resting tone without loading the perineum. They do not replace Kegels; rather, clinical guidelines recommend combining both postpartum and for mild pelvic organ prolapse (grades I and II), prioritising Kegels when stress urinary incontinence is prominent and avoiding hypopressives during pregnancy or untreated hypertension.
 
-### [KeeGo vs Perifit vs Emy: Which one to choose for your pelvic floor?](https://www.pelvisana.com/en/guides/keego-vs-perifit-vs-emy/)
+### [KeeGo, Perifit, Emy and Pelvisana: what differs?](https://www.pelvisana.com/en/guides/keego-vs-perifit-vs-emy/)
 
-Updated: 2026-09-07. An objective comparison of pelvic floor trainers with physical probes (Perifit, Emy) versus the non-invasive digital alternative of KeeGo.
+Updated: 2026-11-24. Compare guided apps and probe-based biofeedback using developer and manufacturer sources. KeeGo and Pelvisana are separate products.
 
-Pelvic floor exercisers with physical probes (such as Perifit and Emy) measure contraction force using an insertable device and provide real-time biofeedback; non-invasive digital programmes (such as KeeGo) guide structured sessions through an app without any vaginal hardware. The choice depends on comfort with insertable devices, budget, and whether clinical biofeedback or guided on-device training better fits the individual goal.
+KeeGo is published by Qeniva Studio; it is not Pelvisana. Perifit Care+ and Emy Trainer use insertable probes with app-based biofeedback. Pelvisana provides guided routines without a connected vaginal probe. These differences describe the products, not proof of equivalent clinical outcomes.
 
 ### [Kegel exercises: technique and common mistakes](https://www.pelvisana.com/en/guides/kegel-exercises/)
 
@@ -245,11 +245,11 @@ Updated: 2026-11-07. Pèrdues en tossir, riure o saltar: què és la incontinèn
 
 La incontinència urinària d'esforç és la pèrdua involuntària d'orina quan augmenta la pressió a l'abdomen: en tossir, esternudar, riure, saltar, córrer o aixecar pes. Passa perquè el sòl pelvià i el tancament de la uretra no aguanten aquesta pressió. L'entrenament de la musculatura del sòl pelvià (EMSP) és el tractament de primera línia: NICE recomana com a mínim 3 mesos d'entrenament supervisat, i a la revisió Cochrane del 2018 les dones que el van fer van tenir unes 8 vegades més probabilitat de referir curació (56 % enfront del 6 %).
 
-### [KeeGo vs Perifit vs Emy: Quin triar per al teu sòl pelvià?](https://www.pelvisana.com/ca/guides/keego-vs-perifit-vs-emy/)
+### [KeeGo, Perifit, Emy i Pelvisana: diferències](https://www.pelvisana.com/ca/guides/keego-vs-perifit-vs-emy/)
 
-Updated: 2026-09-07. Comparem de manera objectiva els exercitadors de sòl pelvià amb sonda física (Perifit, Emy) enfront de l'alternativa digital no invasiva de KeeGo.
+Updated: 2026-11-24. Compara apps guiades i dispositius amb sonda segons fonts del desenvolupador i fabricant. KeeGo i Pelvisana són productes diferents.
 
-Els exercitadors de sòl pelvià amb sonda física (com Perifit i Emy) mesuren la força de contracció mitjançant un dispositiu inserible i ofereixen biofeedback en temps real; els programes digitals no invasius (com KeeGo) guien sessions estructurades a través d'una app sense cap maquinari vaginal. L'elecció depèn del benestar amb els dispositius inseribles, el pressupost i si el biofeedback clínic o l'entrenament guiat amb privacitat on-device s'adapta millor a l'objectiu personal.
+KeeGo és de Qeniva Studio i no és Pelvisana. Perifit Care+ i Emy Trainer utilitzen sondes inseribles amb biofeedback en una app. Pelvisana ofereix rutines guiades sense sonda vaginal connectada. Són diferències de producte, no proves de resultats clínics equivalents.
 
 ### [Prolapse d’òrgans pelvians: guia per a pacients](https://www.pelvisana.com/ca/guides/prolapse-organs-pelvians/)
 
